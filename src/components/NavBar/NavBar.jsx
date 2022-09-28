@@ -6,7 +6,7 @@ export default function NavBar() {
     <main className="NavBar">
       <nav>
         
-        {/* <Link to ='/'>Home</Link> */}
+        <Link to ='/'>Home</Link>
       </nav>
     </main>
   );
