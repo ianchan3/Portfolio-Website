@@ -25,7 +25,7 @@ export default function App() {
           <Route path="/projects/GrowGreen" element={<GrowGreenPage/>}/>
       </Routes>
      
-  
+    <footer>ⓒ 2022 Ian Chan All Rights Reserved</footer>
     </main>
   );
 }

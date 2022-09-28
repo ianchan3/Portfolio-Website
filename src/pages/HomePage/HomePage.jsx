@@ -6,6 +6,8 @@ export default function HomePage() {
     <main className="HomePage">
 
       <h1>Welcome</h1>
+      <h1>Ian Chan</h1>
+      <h1>Full-Stack Developer</h1>
     </main>
   )
 }
