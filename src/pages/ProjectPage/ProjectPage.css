@@ -1,3 +1,8 @@
 .ProjectPage > h1 {
   color: lightblue;
 }
+
+.ProjectPage {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}

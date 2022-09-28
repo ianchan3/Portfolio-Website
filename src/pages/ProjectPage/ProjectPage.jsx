@@ -6,6 +6,9 @@ export default function ProjectPage () {
     <main class="ProjectPage">
       <h1>Projects</h1>
       <Link to="/projects/ConnectFour">Connect Four</Link>
+      <Link to="/projects/FeelTheHeat">Feel The Heat?</Link>
+      <Link to="/projects/LoveStruck">LoveStruck</Link>
+      <Link to="/projects/GrowGreen">Grow Green</Link>
     </main>
   )
 }
