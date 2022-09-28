@@ -6,7 +6,11 @@ export default function NavBar() {
     <main className="NavBar">
       <nav>
         
-        <Link to ='/'>Home</Link>
+        <Link to ="/">Home</Link>
+        
+        <Link to ="/about">About Me</Link>
+
+        <Link to ="/projects">Projects</Link>
       </nav>
     </main>
   );
