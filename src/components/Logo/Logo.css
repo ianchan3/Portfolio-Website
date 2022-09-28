@@ -1,0 +1,13 @@
+.Logo {
+  /* background-image: url('https://cdn3.vectorstock.com/i/thumb-large/55/52/cartoon-tree-vector-2695552.jpg'); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  height: 10vmin;
+  width: 10vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+}
+
