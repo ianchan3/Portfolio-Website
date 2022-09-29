@@ -3,8 +3,8 @@
 }
 
 .icon {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -61,4 +61,12 @@
 .icon--link:hover {
   background-color: #47adf0;
   outline-color: #47adf0;
+}
+
+.ri-github-line:hover {
+  background-color: #2ea44f;
+}
+
+.em-link:hover {
+  background-color: #47adf0;
 }
