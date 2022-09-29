@@ -2,7 +2,7 @@
   color: lightblue;
 }
 
-.ProjectPage {
+.ProjectPage > body {
   display: grid;
   grid-template-rows: auto auto auto auto;
 }

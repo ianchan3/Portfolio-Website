@@ -1,3 +1,64 @@
 .ConnectFourPage > h1, .ConnectFourPage > h2 {
   background-color: yellow;
 }
+
+.icon {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 26px;
+  color: yellow;
+  border-radius: 50%;
+  outline: 2px solid yellow;
+  transition-property:
+      outline-offset, outline-color,
+      background-color;
+  transition-duration: .25s;
+}
+
+.icon--link {
+  font-size: 18px;
+}
+
+@keyframes shake {
+  10% {
+      transform: rotate(15deg);
+  }
+
+  20% {
+      transform: rotate(-15deg);
+  }
+
+  30% {
+      transform: rotate(15deg);
+  }
+
+  40% {
+      transform: rotate(-15deg);
+  }
+  icons {
+  display: flex;
+  column-gap: 25px;
+}
+  }
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--github:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+.icon--link:hover {
+  background-color: #47adf0;
+  outline-color: #47adf0;
+}
