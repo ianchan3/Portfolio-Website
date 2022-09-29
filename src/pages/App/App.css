@@ -1,8 +1,19 @@
+@media only screen and (min-width:1000px)  {
+  body {
+    background: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg");
+    background-position: cover;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width:999px)  {
 body {
   background: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg");
   background-position: cover;
-  background-size: 100%; 
+  background-size: fill; 
   background-repeat: no-repeat;
+}
 }
 
 .App {
