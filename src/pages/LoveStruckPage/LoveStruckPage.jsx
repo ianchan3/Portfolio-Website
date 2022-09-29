@@ -2,7 +2,7 @@ import "./LoveStruckPage.css"
 
 export default function LoveStruckPage() {
   return (
-    <main class="LoveStruckPage">
+    <main className="LoveStruckPage">
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1>Love Struck </h1>

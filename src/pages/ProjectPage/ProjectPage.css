@@ -2,7 +2,16 @@
   color: lightblue;
 }
 
-.ProjectPage > body {
+.ProjectPage > p {
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+}
+
+p > a {
+  padding: 15px;
+}
+
+img {
+  width: 320px;
+  height: 220px;
 }
