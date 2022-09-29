@@ -15,7 +15,7 @@ export default function App() {
   return (
     <main className="App">
       <NavBar />
-      <Routes>
+      <Routes id="routes">
           <Route path="/" element={<HomePage/>}/>
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/projects" element={<ProjectPage/>}/>

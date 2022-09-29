@@ -12,15 +12,11 @@
   font-size: 28px;
   color: yellow;
   border-radius: 50%;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   transition-property:
       outline-offset, outline-color,
       background-color;
   transition-duration: .25s;
-}
-
-.icon--link {
-  font-size: 20px;
 }
 
 @keyframes shake {
@@ -51,6 +47,7 @@
 
 .icon:hover i {
     animation: shake .25s;
+    
 }
 
 .icon--github:hover {
@@ -63,10 +60,6 @@
   outline-color: #47adf0;
 }
 
-.ri-github-line:hover {
-  background-color: #2ea44f;
-}
-
-.em-link:hover {
-  background-color: #47adf0;
+.em-link {
+  font-size: 20px;
 }

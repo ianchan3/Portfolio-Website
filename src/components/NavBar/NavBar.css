@@ -1,13 +1,69 @@
 .NavBar > nav {
-  background-color: blue;
+  background-color: lightblue;
   padding: 5px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   align-items: center;
 }
 
+
 nav > a {
-  background-color: blue;
+  background-color: lightblue;
   color: yellow;
+  font-weight: bold;
   text-decoration: none;
-} 
+  
+}   
+
+.icon--linkedin:hover {
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+
+
+@keyframes shake {
+  10% {
+      transform: rotate(15deg);
+  }
+
+  20% {
+      transform: rotate(-15deg);
+  }
+
+  30% {
+      transform: rotate(15deg);
+  }
+
+  40% {
+      transform: rotate(-15deg);
+  }
+  icons {
+  display: flex;
+  column-gap: 25px;
+}
+  }
+
+.icon {
+  color: yellow;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 50%;
+  outline: 2px solid yellow;
+  transition-property:
+      outline-offset, outline-color,
+      background-color;
+  transition-duration: .25s;
+}
+
+.icon:hover {
+  outline-offset: 4px;
+}
+
+.icon:hover i {
+  animation: shake .25s;
+}

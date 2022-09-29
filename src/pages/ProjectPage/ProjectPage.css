@@ -5,10 +5,11 @@
 .ProjectPage > p {
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: center;
 }
 
 p > a {
-  padding: 15px;
+  padding: 20px;
 }
 
 img {

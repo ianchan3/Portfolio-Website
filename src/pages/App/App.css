@@ -1,13 +1,11 @@
-* { 
-  background-color: rgb(23, 24, 24);
-}
+
 
 .App {
   text-align: center;
 }
 
 footer {
-  color: yellow;
+  color: black;
   position: absolute;
   width: 100%;
   bottom: 0;
