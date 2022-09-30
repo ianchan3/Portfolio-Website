@@ -17,10 +17,12 @@ nav > a {
 
 #About:hover {
   text-decoration: underline;
+  text-decoration-thickness: 20%;
 }
 
 #Projects:hover {
   text-decoration: underline;
+  text-decoration-thickness: 20%;
 }
 
 

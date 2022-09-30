@@ -1,3 +1,8 @@
 .AboutPage > h1 {
   color: orange;
 }
+
+ul > div {
+  color: yellow;
+  font-weight: bold;
+}
