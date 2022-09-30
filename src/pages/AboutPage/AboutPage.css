@@ -11,13 +11,35 @@
 .technologies {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   
 }
+
+@media only screen and (min-width:1000px) {
+span > h1 {
+  font-size: 20px;
+  margin: 40px;
+}
+
+span > i {
+  display: grid;
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  font-size: 20px;
+  outline: 2px solid yellow;
+  border-radius: 50%;
+  align-items: center;
+}
+
+}
+
+@media only screen and (max-width:999px)  {
 
 span > h1 {
   font-size: 20px;
   text-align: center;
+  margin: 10px;
 }
 
 
@@ -30,4 +52,5 @@ span > i {
   outline: 2px solid yellow;
   border-radius: 50%;
   align-items: center;
+}
 }
