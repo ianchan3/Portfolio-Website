@@ -2,7 +2,32 @@
   color: orange;
 }
 
-ul > div {
+.skills {
   color: yellow;
   font-weight: bold;
+}
+
+
+.technologies {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  /* justify-content: space-evenly; */
+  
+}
+
+span > h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+span > i {
+  display: grid;
+  height: 35px;
+  width: 35px;
+  margin: 2.5px;
+  font-size: 20px;
+  outline: 2px solid yellow;
+  border-radius: 50%;
+  align-items: center;
 }
