@@ -12,7 +12,7 @@
   font-size: 28px;
   color: yellow;
   border-radius: 50%;
-  outline: 2px solid black;
+  outline: 2px solid yellow;
   transition-property:
       outline-offset, outline-color,
       background-color;
@@ -61,5 +61,5 @@
 }
 
 .em-link {
-  font-size: 20px;
+  font-size: 18px;
 }

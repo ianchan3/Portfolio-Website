@@ -21,9 +21,10 @@ body {
 }
 
 footer {
-  color: black;
+  color: yellow;
   position: absolute;
   width: 100%;
   bottom: 0;
+  font-weight: bold;
 }
 

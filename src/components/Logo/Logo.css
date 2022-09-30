@@ -1,12 +1,26 @@
 .Logo {
-  height: 7vmin;
-  width: 7vmin;
+  height: 45px;
+  width: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   margin-left: 20px;
-  border-color: black;
-  
+  border: 2px solid yellow;
+  transition-property:
+    outline-offset, outline-color,
+    background-color;
+  transition-duration: .25s;  
 }
 
+.Logo:hover {
+  background-color: #EDA37F;
+}
+
+.Logo:hover {
+  outline-offset: 4px;
+}
+
+.Logo:hover h1 {
+  animation: shake .25s;
+}
