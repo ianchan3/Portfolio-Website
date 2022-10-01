@@ -1,3 +1,17 @@
 .GrowGreenPage > h1, .GrowGreenPage > h2 {
   background-color: yellow;
 }
+
+.icon--github--growgreen:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+.icon--link--growgreen:hover {
+  background-color: #47adf0;
+  outline-color: #47adf0;
+}
+
+.icon--github--growgreen, .icon--link--growgreen {
+  margin: 10px;
+}

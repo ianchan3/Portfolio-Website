@@ -7,11 +7,11 @@ export default function GrowGreenPage() {
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1>Grow Green </h1>
       <h2>Project Information</h2>
-      <a href="https://grow-green-p4.herokuapp.com/" target="blank" class="icon icon--link">
+      <a href="https://grow-green-p4.herokuapp.com/" target="blank" class="icon icon--link--growgreen">
       <i class="em em-link" ></i>
       </a>
       <br/>
-      <a href="https://github.com/ianchan3/Grow-Green" target="blank" class="icon icon--github">
+      <a href="https://github.com/ianchan3/Grow-Green" target="blank" class="icon icon--github--growgreen">
       <i class="ri-github-line"></i>
       </a>
     </main>

@@ -1,3 +1,18 @@
 .FeelTheHeatPage > h1, .FeelTheHeatPage > h2 {
   background-color: yellow;
 }
+
+
+.icon--github--feeltheheat:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+.icon--link--feeltheheat:hover {
+  background-color: #47adf0;
+  outline-color: #47adf0;
+}
+
+.icon--github--feeltheheat, .icon--link--feeltheheat {
+  margin: 10px;
+}

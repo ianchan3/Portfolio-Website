@@ -2,6 +2,12 @@
   background-color: yellow;
 }
 
+
+p {
+  color: yellow;
+  font-weight: bold;
+}
+
 .icon {
   width: 45px;
   height: 45px;
@@ -50,14 +56,18 @@
     
 }
 
-.icon--github:hover {
+.icon--github:hover, .icon--github--connectfour:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
 }
 
-.icon--link:hover {
+.icon--link:hover, .icon--link--connectfour:hover {
   background-color: #47adf0;
   outline-color: #47adf0;
+}
+
+.icon--github--connectfour, .icon--link--connectfour {
+  margin: 10px;
 }
 
 .em-link {

@@ -1,3 +1,17 @@
 .LoveStruckPage > h1, .LoveStruckPage > h2 {
   background-color: yellow;
 }
+
+.icon--github--lovestruck:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+.icon--link--lovestruck:hover {
+  background-color: #47adf0;
+  outline-color: #47adf0;
+}
+
+.icon--github--lovestruck, .icon--link--lovestruck {
+  margin: 10px;
+}
