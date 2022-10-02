@@ -3,7 +3,7 @@
 }
 
 .skills {
-  color: yellow;
+  color: black;
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@ span > i {
   width: 40px;
   margin: 30px;
   font-size: 20px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   border-radius: 50%;
   align-items: center;
 }

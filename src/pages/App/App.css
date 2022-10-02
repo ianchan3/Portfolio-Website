@@ -1,6 +1,6 @@
 @media only screen and (min-width:1000px)  {
   body {
-    background: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg");
+    background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
     background-position: cover;
     background-size: 100%; 
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 @media only screen and (max-width:999px)  {
 body {
-  background: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg");
+  background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
   background-position: cover;
   background-size: fill;
   background-repeat: no-repeat;
