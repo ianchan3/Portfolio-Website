@@ -9,6 +9,7 @@ export default function FeelTheHeatPage() {
       <h2>Project Information</h2>
       <h2>HTML, CSS, JavaScript, MongoDB, Express.js, Node.js</h2>
       <p>Feel The Heat is a CRUD blog where users may post interesting articles to inform others about climate change and global warning. Users may post comments to other users articles and update comments.</p>
+      <p> Feel the Heat is built primarily using MongoDB, Express, Node, HTML, CSS, and JavaScript.</p>
       <a href="https://climate-change-blogproject.herokuapp.com//" target="blank" class="icon icon--link--feeltheheat">
       <i class="em em-link" ></i>
       </a>
