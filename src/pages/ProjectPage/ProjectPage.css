@@ -1,5 +1,5 @@
 .ProjectPage > h1 {
-  color: lightblue;
+  color: black;
 }
 
 .ProjectPage > p {
@@ -13,7 +13,7 @@ p > a {
 }
 
 img {
-  outline: 3px solid black;
+  outline: 4.5px solid black;
 }
 
 @media only screen and (max-width:800px) {
