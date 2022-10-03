@@ -3,36 +3,23 @@ import "./AboutPage.css";
 export default function AboutPage() {
   return (
     <main class="AboutPage">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-      <h1>Hi 👋, I'm Ian Chan!</h1>
-      <h2>I'm a Passionate Full Stack Developer! </h2>
-      <h2>Here is a list of Technologies that I have worked with</h2>
-      <span class="technologies">
-        <i class="devicon-html5-plain colored"></i>
-        <i class="devicon-css3-plain colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-github-original colored"></i>
-        <h1 class="skills">HTML</h1>
-        <h1 class="skills">CSS</h1>
-        <h1 class="skills">JavaScript</h1>
-        <h1 class="skills">Github</h1>
-        <i class="devicon-mongodb-plain colored"></i>
-        <i class="devicon-express-original colored"></i>
-        <i class="devicon-react-original colored"></i>
-        <i class="devicon-nodejs-plain colored"></i>
-        <h1 class="skills">MongoDB</h1>
-        <h1 class="skills">Express.js</h1>
-        <h1 class="skills">React</h1>
-        <h1 class="skills">Node.js</h1>
-        <i class="devicon-python-plain colored"></i>
-        <i class="devicon-django-plain colored"></i>
-        <i class="devicon-postgresql-plain colored"></i>
-        <i class="devicon-heroku-original colored"></i>
-        <h1 class="skills">Python</h1>
-        <h1 class="skills">Django</h1>
-        <h1 class="skills">PostgreSQL</h1>
-        <h1 class="skills">Heroku</h1>
-        </span>    
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
+      <h1>About Me</h1>
+      <h2>I'm a Full Stack Software Engineer who is passionate about utilizing different technologies to make a positive impact in the world. </h2>
+      <h2>With my background in finance and customer service, I am detailed-oriented, well organized, and always have a strategic planning mindset.</h2>
+        <h2>Contact Details</h2>
+      <span className="AboutMe">
+        <h3>Phone Number: 1(626)888-0881</h3>
+        <h3>Email Address: ianchan3138@gmail.com</h3>
+        <h3>Location: Los Angeles, CA</h3>
+      </span>
+        <h3>Check Me Out on These Platforms!</h3>
+        <a href="https://github.com/ianchan3/" target="blank" class="icon icon--github">
+          <i class="ri-github-line"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" class="icon icon--linkedin">
+          <i class="ri-linkedin-line"></i>
+        </a>
     </main>
   )
 }

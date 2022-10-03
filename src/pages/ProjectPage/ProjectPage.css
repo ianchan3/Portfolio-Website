@@ -1,5 +1,6 @@
 .ProjectPage > h1 {
   color: black;
+  text-decoration: underline;
 }
 
 .ProjectPage > p {
