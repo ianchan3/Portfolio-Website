@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <main class="AboutPage">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-      <h1>Hi 👋, I'm Ian!</h1>
+      <h1>Hi 👋, I'm Ian Chan!</h1>
       <h2>I'm a Passionate Full Stack Developer! </h2>
       <h2>Here is a list of Technologies that I have worked with</h2>
       <span class="technologies">
