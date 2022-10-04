@@ -9,13 +9,13 @@ export default function NavBar() {
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <nav>
         <Link to ="/"><Logo /></Link>
-        <Link to ="/about" id="About">About Me</Link>
-        <Link to ="/projects" id="Projects">Projects</Link>
-        <a href="https://github.com/ianchan3/" target="blank" class="icon icon--github">
-          <i class="ri-github-line"></i>
+        <Link to ="/about" id="navbar">About Me</Link>
+        <Link to ="/projects" id="navbar">Projects</Link>
+        <a href="https://github.com/ianchan3/" target="blank" id="navbar"class="icon icon--github">
+          <i id="navbar" class="ri-github-line"></i>
         </a>
-        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" class="icon icon--linkedin">
-          <i class="ri-linkedin-line"></i>
+        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" id="navbar"class="icon icon--linkedin">
+          <i id="navbar" class="ri-linkedin-line"></i>
         </a>
       </nav>
     </main>

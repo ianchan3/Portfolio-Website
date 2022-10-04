@@ -13,12 +13,18 @@ nav > a {
   font-weight: bold;
   text-decoration: none;
   font-size: 19px;
+  
 }   
 
 nav > h2 {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+nav > #navbar {
+  display: flex;
+  justify-content: flex;
 }
 
 #About:hover {

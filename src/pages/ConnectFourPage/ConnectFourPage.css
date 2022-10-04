@@ -1,8 +1,15 @@
+.ConnectFourPage > h1 {
+  color: rgb(44, 177, 44);
+  text-decoration: underline;
+}
+
 
 p {
   color: black;
   font-weight: bold;
 }
+
+
 
 .icon {
   width: 45px;

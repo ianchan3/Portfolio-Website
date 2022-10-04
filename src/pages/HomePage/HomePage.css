@@ -1,5 +1,5 @@
 .HomePage > h1 {
-  color: orange;
+  color: rgb(44, 177, 44);
 }
 
 .skills {
@@ -65,7 +65,7 @@ span > i {
   width: 35px;
   margin: 2.5px;
   font-size: 20px;
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   border-radius: 50%;
   align-items: center;
 }

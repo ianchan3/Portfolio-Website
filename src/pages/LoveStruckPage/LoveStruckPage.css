@@ -1,3 +1,7 @@
+.LoveStruckPage > h1 {
+  color: rgb(44, 177, 44);
+  text-decoration: underline;
+}
 
 
 .icon--github--lovestruck:hover {
