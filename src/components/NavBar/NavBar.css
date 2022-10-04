@@ -2,7 +2,7 @@
   background-color: none;
   padding: 5px;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   align-items: center;
 }
 
