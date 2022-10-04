@@ -10,15 +10,22 @@
 .skills {
   color: black;
   opacity: 100%;
+  margin: 12px;
+}
+
+.technologies > i {
+  margin: 12px;
 }
 
 .technologies {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   justify-content: space-evenly;
+  align-items: center;
   outline: 3px solid black;
   background-color: white;
   opacity: 80%;
+  margin-top: 30px;
   
 }
 
