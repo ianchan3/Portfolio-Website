@@ -3,13 +3,10 @@
   text-decoration: underline;
 }
 
-
 p {
   color: black;
   font-weight: bold;
 }
-
-
 
 .icon {
   width: 45px;
@@ -56,7 +53,6 @@ p {
 
 .icon:hover i {
     animation: shake .25s;
-    
 }
 
 .icon--github:hover, .icon--github--connectfour:hover {

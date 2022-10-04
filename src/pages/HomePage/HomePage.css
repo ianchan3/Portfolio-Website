@@ -29,8 +29,6 @@
   
 }
 
-
-
 @media only screen and (min-width:1000px) {
 span > h1 {
   font-size: 25px;
@@ -47,7 +45,6 @@ span > i {
   border-radius: 50%;
   align-items: center;
 }
-
 }
 
 @media only screen and (max-width:999px)  {
@@ -57,7 +54,6 @@ span > h1 {
   text-align: center;
   margin: 10px;
 }
-
 
 span > i {
   display: grid;

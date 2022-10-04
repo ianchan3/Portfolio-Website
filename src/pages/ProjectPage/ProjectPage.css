@@ -9,7 +9,6 @@
   justify-content: center;
 }
 
-
 p > a {
   padding: 20px;
 }
@@ -24,7 +23,6 @@ img {
     height: 220px;
   }
 }
-  
 
 @media only screen and (min-width:800px){
 img {

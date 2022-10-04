@@ -33,7 +33,7 @@ export default function HomePage() {
         <h1 class="skills">Django</h1>
         <h1 class="skills">PostgreSQL</h1>
         <h1 class="skills">Heroku</h1>
-        </span>    
+      </span>    
     </main>
   )
 }
