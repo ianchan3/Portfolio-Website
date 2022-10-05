@@ -8,6 +8,7 @@ export default function HomePage() {
       <h1>Hi 👋, I'm Ian Chan!</h1>
       <h2>I'm a Passionate Full Stack Developer! </h2>
       <h2>Here is a list of Technologies that I have worked with</h2>
+      <br/>
       <span class="technologies">
         <i class="devicon-html5-plain colored"></i>
         <i class="devicon-css3-plain colored"></i>

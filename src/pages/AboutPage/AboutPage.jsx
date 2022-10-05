@@ -7,6 +7,7 @@ export default function AboutPage() {
       <h1>About Me</h1>
       <h3>I'm a Full Stack Software Engineer who is passionate about utilizing different technologies to make a positive impact in the world. </h3>
       <h3>With my background in finance and customer service, I am detailed-oriented, well organized, and always have a strategic planning mindset.</h3>
+      <br/>
       <span className="AboutMe">
         <h2>Contact Details</h2>
         <h3>Phone Number: 1(626)888-0881</h3>
