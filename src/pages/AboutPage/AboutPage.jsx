@@ -2,7 +2,7 @@ import "./AboutPage.css";
 
 export default function AboutPage() {
   return (
-    <main class="AboutPage">
+    <main className="AboutPage">
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <h1>About Me</h1>
       <h3>I'm a Full Stack Software Engineer who is passionate about utilizing different technologies to make a positive impact in the world. </h3>

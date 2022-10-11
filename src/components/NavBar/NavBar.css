@@ -25,12 +25,12 @@ nav > #navbar {
   justify-content: flex;
 }
 
-#About:hover {
+#navbar:hover {
   text-decoration: underline;
   text-decoration-thickness: 20%;
 }
 
-#Projects:hover {
+#navbar:hover {
   text-decoration: underline;
   text-decoration-thickness: 20%;
 }
