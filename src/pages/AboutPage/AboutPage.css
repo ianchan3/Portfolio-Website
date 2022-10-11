@@ -21,5 +21,17 @@
 
 .AboutPage {
   overflow-x: hidden;
-
 }
+
+@media only screen and (min-width:800px)  {
+  .AboutMe > a {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width:799px)  {
+  .AboutMe > a {
+    margin-bottom: 5px;
+  }
+}
+
