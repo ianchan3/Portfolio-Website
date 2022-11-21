@@ -1,6 +1,5 @@
 import "./App.css";
 import HomePage from "../HomePage/HomePage";
-import AboutPage from "../AboutPage/AboutPage";
 import ProjectPage from "../ProjectPage/ProjectPage";
 import ConnectFourPage from "../ConnectFourPage/ConnectFourPage";
 import FeelTheHeatPage from "../FeelTheHeatPage/FeelTheHeatPage";
@@ -15,7 +14,6 @@ export default function App() {
       <NavBar />
       <Routes id="routes">
         <Route path="/" element={<HomePage/>}/>
-        <Route path="/about" element={<AboutPage/>}/>
         <Route path="/projects" element={<ProjectPage/>}/>
         <Route path="/projects/ConnectFour" element={<ConnectFourPage/>}/>
         <Route path="/projects/FeelTheHeat" element={<FeelTheHeatPage/>}/>

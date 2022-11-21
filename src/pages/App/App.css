@@ -1,9 +1,9 @@
 @media only screen and (min-width:1000px)  {
   body {
-    background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
     background-position: cover;
-    background-size: 100%; 
-    background-repeat: no-repeat;
+    background-size: 176%; 
+    background-repeat: repeat
   }
 }
 
@@ -12,7 +12,7 @@ body {
   background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
   background-position: cover;
   background-size: fill;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 }
 
@@ -21,11 +21,17 @@ body {
 }
 
 footer {
-  color: yellow;
+  color: green;
   position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
   font-size: 16px;
   font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
 }
 
+* {
+  scroll-behavior: smooth;
+}

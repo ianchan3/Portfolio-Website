@@ -1,6 +1,7 @@
 .GrowGreenPage > h1 {
   color: rgb(44, 177, 44);
   text-decoration: underline;
+  padding: 3.4rem 0 0 0;
 }
 
 .icon--github--growgreen:hover {

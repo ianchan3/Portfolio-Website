@@ -1,79 +1,195 @@
-.HomePage > h1 {
+.Welcome h1 {
   color: rgb(45, 177, 44);
+  font-size: 2rem;
 }
 
-.skills {
-  color: black;
-  font-weight: bold;
-}
+.Welcome {
+    padding-top: 4rem;
+  }
 
-.skills {
-  color: black;
-  opacity: 100%;
-  margin: 12px;
-}
-
-
-.technologies-container {
+.Technologies  {
   display: grid;
-  grid-template-columns: repeat(6,1fr);
-  place-items: center;
-  outline: 3px solid black;
-  background-color: white;
-  opacity: 83%;
-  
+  grid-template-columns: auto;
+  margin: 0 -5px;
 }
 
-@media only screen and (min-width:1000px) {
-span > h1 {
-  font-size: 25px;
-  font-weight: 1000;
-  margin: 40px;
+.TechnologyPage {
+  overflow-x: hidden;
 }
 
-span > i {
-  display: grid;
-  height: 50px;
-  width: 50px;
-  margin: 30px;
-  font-size: 30px;
-  outline: 2.5px solid black;
-  border-radius: 50%;
-  align-items: center;
+@media only screen and (min-width:800px)  {
+  .AboutMe > a {
+    margin-bottom: 15px;
+  }
 }
 
-.technologies-container {
-  outline: 3px solid black;
-  background-color: white;
-  margin-top: 10px;
-  padding: 15px 0;
+@media only screen and (max-width:799px)  {
+  .AboutMe > a {
+    margin-bottom: 5px;
+  }
 }
+
+
+#contact {
+  margin-bottom: 5%;
 }
 
 @media only screen and (max-width:999px)  {
 
-span > h1 {
-  font-size: 20px;
-  font-weight: 1000;
-  text-align: center;
-  margin: 10px;
-  padding: 20px 0;
+  .Technologies > h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.75);
+    border: 4px solid black;
+    margin: 1.1rem -5px 0 -5px;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .technologies-container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    place-items: center;
+    border-bottom: 3px solid black;
+  }
+
+  .skills {
+    color: white;
+    opacity: 100%;
+    margin: 12px;
+    font-weight: bold;
+  }
+
+
+  .ProjectPage {
+    border: 4px solid black;
+    margin: 0rem -5px 0 -5px;
+    padding-bottom: 0.5rem;
+  }
+
+
+  .ProjectPage h1 {
+    font-size: 2rem;
+  }
+  span > h1 {
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0;
+  }
+  
+  span > i {
+    display: grid;
+    height: 35px;
+    width: 35px;
+    margin: 2.5px;
+    padding: 2.5px;
+    font-size: 20px;
+    outline: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+  }
+  
+  .technologies-container {
+    margin: 10px 0;
+    padding: 25px 0;
+  }
+
+  #two {
+    padding-top: 2.8rem;
+  }
+
+  #three {
+    padding-top: 5rem;
+  }
+
+  .ProjectPage img {
+    margin-bottom: 3rem;
+  }
+
+  .description {
+    padding: 1rem 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+  }
+
+
+  }
+
+@media only screen and (min-width:1000px) {
+
+  .Welcome {
+    margin-bottom: 3.5rem;
+  }
+
+  .description {
+    margin: 2.5rem 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+
+  span > h1 {
+    font-size: 25px;
+    font-weight: 1000;
+    margin: 20 0 0 40px;
+  }
+  
+  span > i {
+    display: grid;
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    font-size: 30px;
+    outline: 2.5px solid black;
+    border-radius: 50%;
+    align-items: center;
+  }
+  
+  .Technologies > h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.75);
+    border: 4px solid black;
+    margin: 4rem -0.3rem 0 -0.3rem;
+    padding: 1rem 0;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .technologies-container {
+    border-bottom: 4px solid black;
+    background-color: rgb(255, 255, 255, 0);
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    place-items: center;
+  }
+
+  .skills {
+    color: black;
+    opacity: 100%;
+    margin: 12px;
+    font-weight: bold;
+  }
+
+ .ProjectPage {
+  border-bottom: 4px solid black;
+  margin: 0.5rem -0.3rem 0 -0.3rem;
+  padding: 2rem;
+  padding-bottom: 0.5rem;
 }
 
-span > i {
-  display: grid;
-  height: 35px;
-  width: 35px;
-  margin: 2.5px;
-  padding: 2.5px;
-  font-size: 20px;
-  outline: 2px solid black;
-  border-radius: 50%;
-  align-items: center;
+.ProjectPage h1 {
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 4px solid black;
+  margin: 1.9rem -3rem 3rem -3rem;
+  padding: 15px 0;
 }
-
-.technologies-container {
-  margin: 10px 0;
-  padding: 25px 0;
-}
-}
+  }

@@ -1,6 +1,7 @@
 .ConnectFourPage > h1 {
   color: rgb(44, 177, 44);
   text-decoration: underline;
+  padding: 3.4rem 0 0 0;
 }
 
 p {
@@ -15,6 +16,7 @@ p {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  margin: 0 5px;
   font-size: 28px;
   color: black;
   border-radius: 50%;
