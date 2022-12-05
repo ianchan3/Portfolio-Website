@@ -13,35 +13,35 @@ export default function HomePage() {
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       </section>
       <section id="two">
-      <main class="TechnologyPage">
-      <span class="Technologies">
+      <main className="TechnologyPage">
+      <span className="Technologies">
       <h1>Technologies Used</h1>
       <br/>
-      <span class="technologies-container">
-        <i class="devicon-html5-plain colored"></i>
-        <i class="devicon-css3-plain colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-github-original colored"></i>
-        <i class="devicon-mongodb-plain colored"></i>
-        <i class="devicon-express-original colored"></i>
-        <h1 class="skills">HTML</h1>
-        <h1 class="skills">CSS</h1>
-        <h1 class="skills">JavaScript</h1>
-        <h1 class="skills">Github</h1>
-        <h1 class="skills">MongoDB</h1>
-        <h1 class="skills">Express.js</h1>
-        <i class="devicon-react-original colored"></i>
-        <i class="devicon-nodejs-plain colored"></i>
-        <i class="devicon-python-plain colored"></i>
-        <i class="devicon-django-plain colored"></i>
-        <i class="devicon-postgresql-plain colored"></i>
-        <i class="devicon-heroku-original colored"></i>
-        <h1 class="skills">React</h1>
-        <h1 class="skills">Node.js</h1>
-        <h1 class="skills">Python</h1>
-        <h1 class="skills">Django</h1>
-        <h1 class="skills">PostgreSQL</h1>
-        <h1 class="skills">Heroku</h1>
+      <span className="technologies-container">
+        <i className="devicon-html5-plain colored"></i>
+        <i className="devicon-css3-plain colored"></i>
+        <i className="devicon-javascript-plain colored"></i>
+        <i className="devicon-github-original colored"></i>
+        <i className="devicon-mongodb-plain colored"></i>
+        <i className="devicon-express-original colored"></i>
+        <h1 className="skills">HTML</h1>
+        <h1 className="skills">CSS</h1>
+        <h1 className="skills">JavaScript</h1>
+        <h1 className="skills">Github</h1>
+        <h1 className="skills">MongoDB</h1>
+        <h1 className="skills">Express.js</h1>
+        <i className="devicon-react-original colored"></i>
+        <i className="devicon-nodejs-plain colored"></i>
+        <i className="devicon-python-plain colored"></i>
+        <i className="devicon-django-plain colored"></i>
+        <i className="devicon-postgresql-plain colored"></i>
+        <i className="devicon-heroku-original colored"></i>
+        <h1 className="skills">React</h1>
+        <h1 className="skills">Node.js</h1>
+        <h1 className="skills">Python</h1>
+        <h1 className="skills">Django</h1>
+        <h1 className="skills">PostgreSQL</h1>
+        <h1 className="skills">Heroku</h1>
       </span>    
       <br/>
         </span>
@@ -64,11 +64,11 @@ export default function HomePage() {
         <h3>Email Address: ianchan3138@gmail.com</h3>
         <h3>Location: Los Angeles, CA</h3>
         <h3>Check Me Out on These Platforms!</h3>
-        <a href="https://github.com/ianchan3/" target="blank" class="icon icon--github">
-          <i class="ri-github-line"></i>
+        <a href="https://github.com/ianchan3/" target="blank" className="icon icon--github">
+          <i className="ri-github-line"></i>
         </a>
-        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" class="icon icon--linkedin">
-          <i class="ri-linkedin-line"></i>
+        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" className="icon icon--linkedin">
+          <i className="ri-linkedin-line"></i>
         </a>
       </div>
     </main>
