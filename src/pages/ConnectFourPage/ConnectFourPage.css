@@ -60,6 +60,7 @@ p {
 .icon--github:hover, .icon--github--connectfour:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
+  color: yellow;
 }
 
 .icon--link:hover, .icon--link--connectfour:hover {

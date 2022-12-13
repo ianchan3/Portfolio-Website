@@ -1,6 +1,5 @@
 .NavBar > nav {
   background-color: lightgreen;
-  
   border-bottom: 2px solid black;
   padding: 5px;
   display: grid;
@@ -58,4 +57,5 @@ li > * {
 .icon--linkedin:hover {
   background-color: #0077b5;
   outline-color: #0077b5;
+  color: yellow;
 }
