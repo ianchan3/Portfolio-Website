@@ -190,3 +190,36 @@
   padding: 15px 0;
 }
   }
+
+  .ProjectPage > h1 {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .ProjectPage > p {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  
+  p > a {
+    padding: 20px;
+  }
+  
+  img {
+    outline: 4.5px solid black;
+  }
+  
+  @media only screen and (max-width:800px) {
+    img {
+      width: 320px;
+      height: 220px;
+    }
+  }
+  
+  @media only screen and (min-width:800px){
+  img {
+    width: 375px;
+    height: 225px;
+  }
+  }

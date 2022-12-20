@@ -1,0 +1,77 @@
+.CalculatorPage > h1 {
+  color: rgb(44, 177, 44);
+  text-decoration: underline;
+  padding: 3.4rem 0 0 0;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 28px;
+  color: black;
+  border-radius: 50%;
+  outline: 2px solid black;
+  transition-property:
+      outline-offset, outline-color,
+      background-color;
+  transition-duration: .25s;
+}
+
+@keyframes shake {
+  10% {
+      transform: rotate(15deg);
+  }
+
+  20% {
+      transform: rotate(-15deg);
+  }
+
+  30% {
+      transform: rotate(15deg);
+  }
+
+  40% {
+      transform: rotate(-15deg);
+  }
+  icons {
+  display: flex;
+  column-gap: 25px;
+}
+  }
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--github:hover, .icon--github--calculator:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+  color: yellow;
+}
+
+.icon--link:hover, .icon--link--calculator:hover {
+  background-color: #47adf0;
+  outline-color: #47adf0;
+}
+
+.icon--github--calculator, .icon--link--calculator {
+  margin: 10px;
+}
+
+.em-link {
+  font-size: 18px;
+}
