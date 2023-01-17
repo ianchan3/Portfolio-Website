@@ -68,8 +68,8 @@ p {
   outline-color: #47adf0;
 }
 
-.icon--github--connectfour, .icon--link--connectfour {
-  margin: 10px;
+.ConnectFourDescription a {
+  margin-top: 10px;
 }
 
 .em-link {

@@ -12,6 +12,7 @@ export default function FeelTheHeatPage() {
       <h2>HTML | CSS | JavaScript | MongoDB | Express.js | Node.js</h2>
       <p>Feel The Heat is a online blog community where users may post interesting articles to inform others about climate change and global warning.</p>
       <p>Implemented CRUD features so users may post comments to articles, update, and delete their own comments. The project is user centric and users may only delete their own comments and articles.</p>
+      <div className="feeltheheat">
       <a href="https://feeltheheatblog.herokuapp.com/" target="blank" className="icon icon--link--feeltheheat">
         <i className="em em-link" ></i>
       </a>
@@ -19,6 +20,7 @@ export default function FeelTheHeatPage() {
       <a href="https://github.com/ianchan3/Climate-Change-Blog" target="blank" className="icon icon--github--feeltheheat">
         <i className="ri-github-line"></i>
       </a>
+      </div>
     </main>
   )
 }
