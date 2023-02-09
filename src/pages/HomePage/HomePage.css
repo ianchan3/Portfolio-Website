@@ -7,15 +7,7 @@
     padding-top: 4rem;
   }
 
-.Technologies  {
-  display: grid;
-  grid-template-columns: auto;
-  margin: 0 -5px;
-}
 
-.TechnologyPage {
-  overflow-x: hidden;
-}
 
 @media only screen and (min-width:800px)  {
   .AboutMe > a {
