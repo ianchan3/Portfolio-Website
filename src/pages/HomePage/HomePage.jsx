@@ -1,13 +1,13 @@
 import "./HomePage.css";
 import ContactInformation from "../ContactInformation/ContactInformation";
-import { Link } from "react-router-dom";
+import ProjectPage from "../ProjectPage/ProjectPage";
 
 export default function HomePage() {
   return (
     <main className="HomePage">
       <section id="#" className="Welcome">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-        <h1>Hi 👋, I'm Ian Chan!</h1>
+        <h1>Hi , I'm Ian Chan!</h1>
         <p className="description">I'm a Full Stack Software Engineer who is passionate about utilizing different technologies to make a positive impact in the world. </p>
         <p className="description">With my background in finance and customer service, I am detailed-oriented, well organized, and have a strategic planning mindset.</p>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
@@ -47,19 +47,7 @@ export default function HomePage() {
           </span>
         </main>
       </section>
-      <section id="three">
-        <main className="ProjectPage">
-          <h1>Projects</h1>
-          <p>
-            <Link to="/projects/TExpress"><img src="https://i.imgur.com/oXqGh1z.png" alt="Calculator App"></img></Link>
-            <Link to="/projects/FeelTheHeat"><img src="https://i.imgur.com/4Cw2lUX.jpg" alt="Feel The Heat?"></img></Link>
-            <Link to="/projects/Calculator"><img src="https://i.imgur.com/VtIlnQW.jpg" alt="Calculator App"></img></Link>
-            <Link to="/projects/ConnectFour"><img src="https://i.imgur.com/ZaLPJld.jpg" alt="Connect Four"></img></Link>
-            <Link to="/projects/GrowGreen"><img src="https://i.imgur.com/PCvd6LZ.png" alt="Grow Green"></img></Link>
-            <Link to="/projects/LoveStruck"><img src="https://i.imgur.com/W3Mikdl.png" alt="LoveStruck"></img></Link>
-          </p>
-        </main>
-      </section>
+      <ProjectPage />
       <ContactInformation />
     </main>
   )
