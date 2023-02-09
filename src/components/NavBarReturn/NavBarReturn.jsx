@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import './NavBarReturn.css';
 import Logo from '../Logo/Logo';
 
 export default function NavBarReturn() {

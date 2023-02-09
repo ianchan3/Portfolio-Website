@@ -1,11 +1,10 @@
 import "./FeelTheHeatPage.css"
 import NavBarReturn from "../../components/NavBarReturn/NavBarReturn";
 
-
 export default function FeelTheHeatPage() {
   return (
     <main className="FeelTheHeatPage">
-        <NavBarReturn />
+      <NavBarReturn />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1>Feel the Heat? </h1>

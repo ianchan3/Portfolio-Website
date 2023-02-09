@@ -1,11 +1,10 @@
 import "./GrowGreenPage.css"
 import NavBarReturn from "../../components/NavBarReturn/NavBarReturn";
 
-
 export default function GrowGreenPage() {
   return (
     <main className="GrowGreenPage">
-        <NavBarReturn />
+      <NavBarReturn />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1>Grow Green </h1>
