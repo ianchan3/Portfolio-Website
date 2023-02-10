@@ -19,6 +19,12 @@ export default function ConnectFourPage() {
         <a href="https://github.com/ianchan3/Connect-Four" target="blank" className="icon icon--github--connectfour">
           <i className="ri-github-line"></i>
         </a>
+        <div className="projects">
+          <img src="https://i.imgur.com/P16YjDD.jpg"></img>
+          <img src="https://i.imgur.com/2e9rYAY.jpg"></img>
+          <img src="https://i.imgur.com/QaFtFVM.jpg"></img>
+          <img src="https://i.imgur.com/J6fMrXH.jpg"></img>
+        </div>
       </span>
     </main>
   )

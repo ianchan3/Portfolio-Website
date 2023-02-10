@@ -20,6 +20,12 @@ export default function FeelTheHeatPage() {
         <i className="ri-github-line"></i>
       </a>
       </div>
+      <div className="projects">
+        <img src="https://i.imgur.com/EA4iIUV.jpg"></img>
+        <img src="https://i.imgur.com/pJYRfKn.jpg"></img>
+        <img src="https://i.imgur.com/54svmvE.jpg"></img>
+        <img src="https://i.imgur.com/5kQ4FPd.png"></img>
+      </div>
     </main>
   )
 }

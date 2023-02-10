@@ -19,6 +19,10 @@ export default function CalculatorPage() {
         <a href="https://github.com/ianchan3/Calculator-App" target="blank" className="icon icon--github--calculator">
           <i className="ri-github-line"></i>
         </a>
+        <div className="projects">
+          <img src="https://i.imgur.com/03oF38q.jpg"></img>
+          <img src="https://i.imgur.com/sF548r0.jpg"></img>
+        </div>
       </span>
     </main>
   )

@@ -20,6 +20,12 @@ export default function LoveStruckPage() {
           <i className="ri-github-line"></i>
         </a>
       </div>
+      <div className="projects">
+        <img src="https://i.imgur.com/7kL1KfS.jpg"></img>
+        <img src="https://i.imgur.com/JaAw8Wj.png"></img>
+        <img src="https://i.imgur.com/gw5pjyV.png"></img>
+        <img src="https://i.imgur.com/VYc9EiF.png"></img>
+      </div>
     </main>
   )
 }

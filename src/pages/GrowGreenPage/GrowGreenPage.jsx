@@ -18,6 +18,12 @@ export default function GrowGreenPage() {
       <a href="https://github.com/ianchan3/Grow-Green" target="blank" className="icon icon--github--growgreen">
         <i className="ri-github-line"></i>
       </a>
+      <div className="projects">
+        <img src="https://i.imgur.com/G49LLZI.jpg"></img>
+        <img src="https://i.imgur.com/Dn2SAOy.jpg"></img>
+        <img src="https://i.imgur.com/h5GaeDY.jpg"></img>
+        <img src="https://i.imgur.com/ZeTriz5.png"></img>
+      </div>
     </main>
   )
 }

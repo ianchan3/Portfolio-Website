@@ -9,6 +9,16 @@
   justify-content: center;
 }
 
+ .projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.projects > img {
+  margin: 2rem 0;
+}
+
 p > a {
   padding: 20px;
 }

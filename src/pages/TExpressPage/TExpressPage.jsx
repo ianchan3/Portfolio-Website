@@ -17,6 +17,10 @@ export default function TExpressPage() {
       <a href="https://github.com/ianchan3/Grow-Green" target="blank" className="icon icon--github--texpress">
         <i className="ri-github-line"></i>
       </a>
+      <div className="projects">
+        <img src="https://i.imgur.com/sZlpd8W.pngg"></img>
+        <img src="https://i.imgur.com/6CnD6nm.png"></img>
+      </div>
     </main>
   )
 }
