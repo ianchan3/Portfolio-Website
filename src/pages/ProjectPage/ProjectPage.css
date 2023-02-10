@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
+  margin: 0 10rem;
 }
 
 .projects > img {

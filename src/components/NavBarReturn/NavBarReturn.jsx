@@ -8,7 +8,7 @@ export default function NavBarReturn() {
       <nav>
         <Link to ="/"><Logo /></Link>
         <Link to ="/#two" id="navbar" class="about">About Me</Link>
-        <Link to ="/#three" id="navbar" class="projects">Projects</Link>
+        <Link to ="/#three" id="navbar">Projects</Link>
         <a href="https://drive.google.com/file/d/1c-psynSp7Jkzdxnr6Cq7Hd-Wow2ICx8a/view?usp=sharing" target="blank" id="navbar" class="resume">Resume</a>
         <a href="https://github.com/ianchan3/" target="blank" id="navbar"class="icon icon--github">
           <i id="navbar" class="ri-github-line"></i>
