@@ -27,3 +27,25 @@ p > a {
 img {
   outline: 4.5px solid black;
 }
+
+@media only screen and (max-width:1350px) {
+  .ProjectPage p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width:1175px) {
+  .ProjectPage p {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width:1075px) {
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+}

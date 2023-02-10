@@ -209,11 +209,6 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
-
-    .ProjectPage p {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
   }
   @media only screen and (max-width:1175px) {
     .technologies-container {
@@ -224,9 +219,4 @@
   .technologies-container h1 {
       color: black;
   }
-
-    .ProjectPage p {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
   }
