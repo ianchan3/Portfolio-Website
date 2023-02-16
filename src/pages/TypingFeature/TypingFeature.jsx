@@ -8,9 +8,9 @@ export default function TypingFeature() {
     <p>
       <Typed 
         strings={[
-          "I am a Software Engineer.", 
-          "I am a Web Developer.", 
-          "I love to code and solve problems!"
+          "I am a Software Engineer", 
+          "I am a Web Developer", 
+          "I love to code"
         ]}
           typeSpeed={75}
           backSpeed={50}
