@@ -12,8 +12,9 @@ export default function TypingFeature() {
           "I am a Web Developer", 
           "I love to code"
         ]}
-          typeSpeed={140}
-          backSpeed={60}
+          typeSpeed={75}
+          backSpeed={50}
+          backDelay={1750}
           loop
       />
     </p>

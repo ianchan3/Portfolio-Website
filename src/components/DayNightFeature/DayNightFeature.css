@@ -1,11 +1,15 @@
 [data-theme="light"] {
   background-color: lightblue;
-  color: black;
+  --bg-color: black;
   transition: background-color 1050ms ease-in-out;
 }
 
 [data-theme="dark"] {
   background-color: #282c34;
-  color: white;
+  --bg-color: white;
   transition: background-color 1050ms ease-in-out;
+}
+
+.project-title {
+  color: var(--bg-color);
 }
