@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
+import DayNightFeature from '../DayNightFeature/DayNightFeature';
+
 
 export default function NavBarReturn() {
   return (
@@ -16,6 +18,7 @@ export default function NavBarReturn() {
         <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" id="navbar"class="icon icon--linkedin">
           <i id="navbar" class="ri-linkedin-line"></i>
         </a>
+        <DayNightFeature />
       </nav>
     </main>
   );

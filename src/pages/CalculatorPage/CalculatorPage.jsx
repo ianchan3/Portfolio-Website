@@ -7,7 +7,7 @@ export default function CalculatorPage() {
       <NavBarReturn />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
-      <h1>Calculator App</h1>
+      <h1 className="project-title">Calculator App</h1>
       <h2>HTML | CSS | JavaScript</h2>
       <p>Try this nifty calculator with a splash of financial background design</p>
       <p>This calculator app can handle arithmetic calculations along with other functions such as parentheses, pi, square root, squared and percentage.</p>

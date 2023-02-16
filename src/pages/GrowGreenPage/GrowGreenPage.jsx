@@ -7,7 +7,7 @@ export default function GrowGreenPage() {
       <NavBarReturn />
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
-      <h1>Grow Green </h1>
+      <h1 className="project-title">Grow Green </h1>
       <h2>HTML | CSS | JavaScript | MongoDB | Express | React | Node</h2>
       <p>Grow Green is a donation website where users may donate money to plant trees and help the environment by fighting climate change.</p>
       <p>Implemented CRUD features so user may donate money to plant trees. Users are able to view only their donation history and delete their donations.</p>
