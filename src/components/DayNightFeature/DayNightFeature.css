@@ -1,0 +1,11 @@
+[data-theme="light"] {
+  background-color: lightblue;
+  color: black;
+  transition: background-color 1050ms ease-in-out;
+}
+
+[data-theme="dark"] {
+  background-color: #282c34;
+  color: white;
+  transition: background-color 1050ms ease-in-out;
+}

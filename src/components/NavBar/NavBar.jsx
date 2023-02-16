@@ -1,5 +1,6 @@
 import './NavBar.css';
 import Logo from '../Logo/Logo';
+import DayNightFeature from '../DayNightFeature/DayNightFeature';
 
 export default function NavBar() {
   return (
@@ -15,7 +16,8 @@ export default function NavBar() {
         </a>
         <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" id="icon"class="icon icon--linkedin">
           <i id="icon" class="ri-linkedin-line"></i>
-        </a> 
+        </a>
+        <DayNightFeature />
       </nav>
     </main>
   );
