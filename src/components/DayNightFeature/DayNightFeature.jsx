@@ -35,6 +35,7 @@ export default function DayNightFeature() {
     <DayNightToggle
     onChange= {handleChangeTheme}
     checked={isDarkMode}
+    animationInactive={false}
   /> 
   )
 }

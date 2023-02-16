@@ -8,12 +8,13 @@ export default function TypingFeature() {
     <p>
       <Typed 
         strings={[
-          "I am a Software Engineer", 
-          "I am a Web Developer", 
-          "I love to code"
+          "I am a Software Engineer.", 
+          "I am a Web Developer.", 
+          "I love to code and solve problems!"
         ]}
-          typeSpeed={140}
-          backSpeed={60}
+          typeSpeed={75}
+          backSpeed={50}
+          backDelay={1750}
           loop
       />
     </p>
