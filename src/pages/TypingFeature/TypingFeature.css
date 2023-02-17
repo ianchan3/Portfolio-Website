@@ -1,4 +1,3 @@
-
 .container  {
   font-size: 2rem;
   padding: 0.5rem;
@@ -6,4 +5,5 @@
   letter-spacing: 0.1rem;
   text-align: center;
   overflow: hidden;
+  color: var(--bg-color);
 }

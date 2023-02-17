@@ -4,7 +4,11 @@
   padding: 10px;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  align-items: center;
+  place-items: center;
+}
+
+nav > .logo {
+  margin-left: -4rem;
 }
 
 .NavBar {
@@ -54,8 +58,16 @@ li > * {
   font-size: 19px;
 }
 
-.icon--linkedin:hover {
+.icon--linkedin--navbar:hover {
   background-color: #0077b5;
   outline-color: #0077b5;
   color: yellow;
+  text-decoration: none;
+}
+
+.icon--github--navbar:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+  color: yellow;
+  text-decoration: none;
 }

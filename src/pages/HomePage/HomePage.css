@@ -1,13 +1,16 @@
 .Welcome h1 {
-  color: rgb(45, 177, 44);
   font-size: 2rem;
+}
+.Welcome h1, .Welcome p, .technologies-container h1 {
+  color: var(--bg-color);
+}
+span > i {
+  border: 2px solid black;
 }
 
 .Welcome {
     padding-top: 4rem;
   }
-
-
 
 @media only screen and (min-width:800px)  {
   .AboutMe > a {
@@ -27,7 +30,6 @@
     font-size: 2rem;
     font-weight: bold;
     background-color: rgb(255, 255, 255, 0.75);
-    border: 4px solid black;
     margin: 1.1rem -5px 0 -5px;
     color: black;
     text-decoration: underline;
@@ -37,7 +39,6 @@
     display: grid;
     grid-template-columns: repeat(6,1fr);
     place-items: center;
-    border-bottom: 3px solid black;
   }
 
   .skills {
@@ -47,13 +48,11 @@
     font-weight: bold;
   }
 
-
   .ProjectPage {
     border: 4px solid black;
     margin: 0rem -5px 0 -5px;
     padding-bottom: 0.5rem;
   }
-
 
   .ProjectPage h1 {
     font-size: 2rem;
@@ -73,7 +72,6 @@
     margin: 2.5px;
     padding: 2.5px;
     font-size: 20px;
-    outline: 2px solid black;
     background-color: white;
     border-radius: 50%;
     align-items: center;
@@ -129,7 +127,6 @@
     width: 50px;
     margin: 30px;
     font-size: 30px;
-    outline: 2.5px solid black;
     border-radius: 50%;
     align-items: center;
   }
@@ -137,16 +134,14 @@
   .Technologies > h1 {
     font-size: 2rem;
     font-weight: bold;
-    background-color: rgb(255, 255, 255, 0.75);
+    background-color: rgb(255, 255, 255);
     border: 4px solid black;
     margin: 4rem -0.3rem 0 -0.3rem;
     padding: 1rem 0;
-    color: black;
     text-decoration: underline;
   }
 
   .technologies-container {
-    border-bottom: 4px solid black;
     background-color: rgb(255, 255, 255, 0);
     margin-top: 1.5rem;
     margin-bottom: 3rem;
@@ -172,7 +167,7 @@
 
 .ProjectPage h1 {
   font-size: 2rem;
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255);
   border: 4px solid black;
   margin: 1.9rem -3rem 3rem -3rem;
   padding: 15px 0;
@@ -216,9 +211,6 @@
       grid-template-columns: repeat(2, 1fr);
       margin-bottom: 1.5rem;
     }
-  .technologies-container h1 {
-      color: black;
-  }
   }
 
   .wave {
@@ -242,3 +234,5 @@
      80% { transform: rotate( 0.0deg) }
     100% { transform: rotate( 0.0deg) }
   }
+
+

@@ -56,7 +56,7 @@ p {
     animation: shake .25s;
 }
 
-.icon--github:hover, .icon--github--calculator:hover {
+.icon--github--calculator:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
   color: yellow;
