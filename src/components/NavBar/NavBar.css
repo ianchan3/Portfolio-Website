@@ -38,11 +38,8 @@ nav  #navbar {
   justify-content: flex;
 }
 
-#navbar {
-  text-decoration: none;
-}
 
-#navbar:hover {
+li #navbar:hover {
   text-decoration: underline;
   text-decoration-thickness: 20%;
 }
@@ -62,12 +59,10 @@ li > * {
   background-color: #0077b5;
   outline-color: #0077b5;
   color: yellow;
-  text-decoration: none;
 }
 
 .icon--github:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
   color: yellow;
-  text-decoration: none;
 }

@@ -7,8 +7,16 @@
 }
 
 
-.icon--linkedin:hover, .icon--github:hover {
+.icon--linkedin--contact:hover {
   background-color: #0077b5;
   outline-color: #0077b5;
+}
+
+.icon--github--contact:hover {
+  background-color: #2ea44f;
+  outline-color: #2ea44f;
+}
+
+#contact-linkedin:hover, #contact-github:hover {
   color: yellow;
 }

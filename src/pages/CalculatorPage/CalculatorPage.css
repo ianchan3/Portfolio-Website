@@ -57,8 +57,8 @@ p {
 }
 
 .icon--link:hover {
-  background-color: #47adf0;
-  outline-color: #47adf0;
+  background-color: yellow;
+  outline-color: yellow;
 }
 
 .em-link {

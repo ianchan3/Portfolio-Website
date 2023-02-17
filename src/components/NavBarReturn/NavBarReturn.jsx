@@ -1,4 +1,3 @@
-import "./NavBarReturn.css";
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 import DayNightFeature from '../DayNightFeature/DayNightFeature';
@@ -13,10 +12,10 @@ export default function NavBarReturn() {
         <Link to ="/#two" id="navbar" class="about">About Me</Link>
         <Link to ="/#three" id="navbar">Projects</Link>
         <a href="https://drive.google.com/file/d/1c-psynSp7Jkzdxnr6Cq7Hd-Wow2ICx8a/view?usp=sharing" target="blank" id="navbar" class="resume">Resume</a>
-        <a href="https://github.com/ianchan3/" target="blank" id="navbar"class="icon icon--github--navbarreturn">
+        <a href="https://github.com/ianchan3/" target="blank" id="navbar"class="icon icon--github">
           <i id="navbar" class="ri-github-line"></i>
         </a>
-        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" id="navbar"class="icon icon--linkedin--navbarreturn">
+        <a href="https://www.linkedin.com/in/ianchan-/" target= "blank" id="navbar"class="icon icon--linkedin">
           <i id="navbar" class="ri-linkedin-line"></i>
         </a>
         <DayNightFeature />
