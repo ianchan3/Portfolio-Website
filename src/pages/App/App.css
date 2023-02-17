@@ -1,22 +1,3 @@
-@media only screen and (min-width:1000px)  {
-  body {
-    /* background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg"); */
-    background-color: lightblue;
-    background-position: cover;
-    background-size: 176%; 
-    background-repeat: repeat
-  }
-}
-
-@media only screen and (max-width:999px)  {
-body {
-  background: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg");
-  background-position: cover;
-  background-size: fill;
-  background-repeat: repeat;
-}
-}
-
 .App {
   text-align: center;
 }
@@ -31,6 +12,10 @@ footer {
   font-weight: bold;
   background-color: white;
   border: 2.5px solid black;
+}
+
+body {
+  background-color: lightblue;
 }
 
 * {

@@ -1,12 +1,16 @@
 [data-theme="light"] {
   background-color: lightblue;
   --bg-color: black;
+  --contact-color: black;
+  --title-color: white;
   transition: background-color 1050ms ease-in-out;
 }
 
 [data-theme="dark"] {
   background-color: #282c34;
   --bg-color: white;
+  --contact-color: yellow;
+  --title-color: yellow;
   transition: background-color 1050ms ease-in-out;
 }
 
