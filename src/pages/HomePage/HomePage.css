@@ -240,4 +240,10 @@ span > i {
 
 .links > a {
   margin: 10px;
+  color: var(--contact-color);
+  outline: 2px solid var(--contact-color);
+}
+
+.links > *, h2 {
+  color: var(--contact-color);
 }

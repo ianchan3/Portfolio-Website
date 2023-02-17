@@ -9,9 +9,9 @@ export default function LoveStruckPage() {
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1 className="project-title">Love Struck </h1>
       <h2>Python | Django | Materialize</h2>
-      <p>Don't know where to go on your next date? We got you! Lovestruck is a date planning website that provides fantasic date ideas recommended by other users.</p>
-      <p>Implemented CRUD features so users may create dates, partners, and locations. However, users are only able to edit any partner, location, or dates that they made </p>
       <div className="links">
+        <p>Don't know where to go on your next date? We got you! Lovestruck is a date planning website that provides fantasic date ideas recommended by other users.</p>
+        <p>Implemented CRUD features so users may create dates, partners, and locations. However, users are only able to edit any partner, location, or dates that they made </p>
         <a href="https://lovestruck.herokuapp.com/" target="blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>

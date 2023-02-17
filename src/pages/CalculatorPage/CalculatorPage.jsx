@@ -9,9 +9,9 @@ export default function CalculatorPage() {
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1 className="project-title">Calculator App</h1>
       <h2>HTML | CSS | JavaScript</h2>
-      <p>Try this nifty calculator with a splash of financial background design</p>
-      <p>This calculator app can handle arithmetic calculations along with other functions such as parentheses, pi, square root, squared and percentage.</p>
       <span className="links">
+        <p>Try this nifty calculator with a splash of financial background design</p>
+        <p>This calculator app can handle arithmetic calculations along with other functions such as parentheses, pi, square root, squared and percentage.</p>
         <a href="https://ianchancalculatorapp.netlify.app/" target="blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
