@@ -17,6 +17,7 @@
     "react-scripts": "5.0.1",
     "react-typed": "^1.2.0",
     "serve-favicon": "^2.5.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
