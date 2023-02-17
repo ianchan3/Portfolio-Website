@@ -1,7 +1,9 @@
 .Welcome h1 {
   font-size: 2rem;
+  color: yellow;
 }
-.Welcome h1, .Welcome p, .technologies-container h1 {
+
+.Welcome p, .technologies-container h1 {
   color: var(--bg-color);
 }
 span > i {
