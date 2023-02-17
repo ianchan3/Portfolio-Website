@@ -2,17 +2,3 @@
   text-decoration: underline;
   padding: 3.4rem 0 0 0;
 }
-
-.icon--github--feeltheheat:hover {
-  background-color: #2ea44f;
-  outline-color: #2ea44f;
-}
-
-.icon--link--feeltheheat:hover {
-  background-color: #47adf0;
-  outline-color: #47adf0;
-}
-
-.feeltheheat a {
-  margin: 10px;
-}

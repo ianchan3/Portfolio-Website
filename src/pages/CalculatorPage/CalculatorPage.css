@@ -56,19 +56,9 @@ p {
     animation: shake .25s;
 }
 
-.icon--github--calculator:hover {
-  background-color: #2ea44f;
-  outline-color: #2ea44f;
-  color: yellow;
-}
-
-.icon--link:hover, .icon--link--calculator:hover {
+.icon--link:hover {
   background-color: #47adf0;
   outline-color: #47adf0;
-}
-
-.icon--github--calculator, .icon--link--calculator {
-  margin: 10px;
 }
 
 .em-link {

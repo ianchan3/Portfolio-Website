@@ -58,14 +58,14 @@ li > * {
   font-size: 19px;
 }
 
-.icon--linkedin--navbar:hover {
+.icon--linkedin:hover {
   background-color: #0077b5;
   outline-color: #0077b5;
   color: yellow;
   text-decoration: none;
 }
 
-.icon--github--navbar:hover {
+.icon--github:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
   color: yellow;

@@ -236,3 +236,6 @@ span > i {
   }
 
 
+.links > a {
+  margin: 10px;
+}

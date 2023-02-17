@@ -56,21 +56,4 @@ p {
     animation: shake .25s;
 }
 
-.icon--github:hover, .icon--github--connectfour:hover {
-  background-color: #2ea44f;
-  outline-color: #2ea44f;
-  color: yellow;
-}
 
-.icon--link:hover, .icon--link--connectfour:hover {
-  background-color: #47adf0;
-  outline-color: #47adf0;
-}
-
-.ConnectFourDescription a {
-  margin-top: 10px;
-}
-
-.em-link {
-  font-size: 18px;
-}

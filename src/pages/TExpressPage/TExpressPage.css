@@ -2,17 +2,3 @@
   text-decoration: underline;
   padding: 3.4rem 0 0 0;
 }
-
-.icon--github--texpress:hover {
-  background-color: #2ea44f;
-  outline-color: #2ea44f;
-}
-
-.icon--link--texpress:hover {
-  background-color: #47adf0;
-  outline-color: #47adf0;
-}
-
-.icon--github--texpress, .icon--link--texpress {
-  margin: 10px;
-}
