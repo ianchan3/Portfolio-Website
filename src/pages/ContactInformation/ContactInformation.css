@@ -4,8 +4,8 @@
 
 #contact * {
   color: var(--contact-color);
+  outline-color: var(--contact-color);
 }
-
 
 .icon--linkedin--contact:hover {
   background-color: #0077b5;

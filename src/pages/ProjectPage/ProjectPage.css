@@ -26,6 +26,7 @@ p > a {
 
 img {
   outline: 4.5px solid black;
+  outline-color: var(--bg-color);
 }
 
 @media only screen and (max-width:1350px) {
