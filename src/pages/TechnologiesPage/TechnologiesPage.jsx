@@ -33,7 +33,6 @@ export default function TechnologiesPage() {
             <h1 className="skills">PostgreSQL</h1>
             <h1 className="skills">Heroku</h1>
           </span>    
-          <br/>
         </span>
       </main>
     </section>

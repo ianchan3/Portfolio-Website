@@ -7,60 +7,57 @@
   color: var(--bg-color);
 }
 
+.Welcome {
+  padding-top: 4rem;
+}
+
 span > i {
   border: 4px solid black;
   background-color: white;
 }
 
-.Welcome {
-    padding-top: 4rem;
-  }
-
-@media only screen and (min-width:800px)  {
-  .AboutMe > a {
-    margin-bottom: 15px;
-  }
+.skills {
+  font-weight: bold;
 }
 
-@media only screen and (max-width:799px)  {
-  .AboutMe > a {
-    margin-bottom: 5px;
-  }
+.ProjectPage h1 {
+  margin: 1.9rem -3rem 3rem -3rem;
+  padding: 15px 0;
+}
+
+.ProjectPage {
+  border-bottom: 4px solid black;
+  margin: -0.5rem -0.3rem 0 -0.3rem;
+  padding: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.Technologies > h1, .ProjectPage h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  border: 4px solid black;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width:999px)  {
 
   .Technologies > h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: rgb(255, 255, 255, 0.75);
     margin: 1.1rem -5px 0 -5px;
-    color: black;
-    text-decoration: underline;
   }
 
   .technologies-container {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(2,1fr);
     place-items: center;
-  }
-
-  .skills {
-    color: white;
-    opacity: 100%;
-    margin: 12px;
-    font-weight: bold;
-  }
-
-  .ProjectPage {
-    border: 4px solid black;
-    margin: 0rem -5px 0 -5px;
-    padding-bottom: 0.5rem;
+    margin: 10px 0 0 0;
+    padding: 25px 0 0 0;
   }
 
   .ProjectPage h1 {
     font-size: 2rem;
   }
+  
   span > h1 {
     font-size: 20px;
     font-weight: 1000;
@@ -79,23 +76,23 @@ span > i {
     background-color: white;
     border-radius: 50%;
     align-items: center;
-  }
-  
-  .technologies-container {
-    margin: 10px 0;
-    padding: 25px 0;
+    margin: 2rem;
   }
 
   #two {
-    padding-top: 2.8rem;
+    padding-top: 1.5rem;
   }
 
   #three {
-    padding-top: 5rem;
+    padding-top: 1.5rem;
   }
 
   .ProjectPage img {
     margin-bottom: 3rem;
+  }
+
+  .ProjectPage {
+    padding-bottom: 0rem;
   }
 
   .description {
@@ -104,7 +101,7 @@ span > i {
     margin-right: 2rem;
     font-size: 20px;
   }
-  }
+}
 
 @media only screen and (min-width:1000px) {
 
@@ -136,13 +133,8 @@ span > i {
   }
   
   .Technologies > h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: white;
-    border: 4px solid black;
     margin: 4rem -0.3rem 0 -0.3rem;
     padding: 1rem 0;
-    text-decoration: underline;
   }
 
 
@@ -163,20 +155,6 @@ span > i {
     font-weight: bold;
   }
 
- .ProjectPage {
-  border-bottom: 4px solid black;
-  margin: -0.5rem -0.3rem 0 -0.3rem;
-  padding: 2rem;
-  padding-bottom: 0.5rem;
-}
-
-.ProjectPage h1 {
-  font-size: 2rem;
-  background-color: white;
-  border: 4px solid black;
-  margin: 1.9rem -3rem 3rem -3rem;
-  padding: 15px 0;
-}
   }
 
   @media only screen and (max-width:800px) {

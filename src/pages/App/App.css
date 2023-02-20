@@ -16,6 +16,7 @@ footer {
 
 body {
   background-color: lightblue;
+  overflow-x: hidden;
 }
 
 * {
