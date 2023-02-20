@@ -19,7 +19,7 @@ export default function HomePage() {
         </h1>
         <TypingFeature />
         <p className="description">I'm a Full Stack Software Engineer who is passionate about utilizing different technologies to make a positive impact in the world. </p>
-        <p className="description">With my background in finance and customer service, I am detailed-oriented, well organized, and have a strategic planning mindset.</p>
+        <p className="description">With my background in finance and customer service, my strong communication, problem-solving, and attention to detail skills makes me a great candidate for any software engineer role.</p>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       </section>
       <TechnologiesPage />
