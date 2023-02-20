@@ -38,12 +38,6 @@ nav  .navbar {
   justify-content: flex;
 }
 
-
-/* li #navbar:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 20%;
-} */
-
 li {
   list-style: none;
 }

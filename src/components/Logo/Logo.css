@@ -1,4 +1,7 @@
 .Logo {
+  background-image: url("http://www.clker.com/cliparts/6/6/2/e/12279745311843761897pitr_Home_icon.svg.hi.png");
+  background-position: center;
+  background-size: cover;
   height: 45px;
   width: 45px;
   display: flex;
@@ -15,13 +18,9 @@
 
 .Logo:hover {
   background-color: yellow;
-}
-
-.Logo:hover {
-  outline-offset: 4px;
-}
-
-.Logo:hover h1 {
   animation: shake .25s;
+  outline-offset: 4px;
+  outline: 2px solid black;
 }
+
 
