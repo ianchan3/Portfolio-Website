@@ -5,9 +5,26 @@ import TechnologiesPage from "../TechnologiesPage/TechnologiesPage";
 import TypingFeature from "../TypingFeature/TypingFeature";
 
 export default function HomePage() {
+  window.onscroll = () => scrollProgress();
+
+function scrollProgress() {
+  const currentState = document.body.scrollTop || document.documentElement.scrollTop;
+
+  const pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+  const scrollPercentage = (currentState / pageHeight ) * 100;
+
+  const progressBar = document.querySelector(".progress");
+
+  progressBar.style.visibility = "visible";
+  progressBar.style.width = scrollPercentage + "%";
+}
 
   return (
     <main className="HomePage">
+      <div className="scroll-indicator">
+        <div className="progress"></div>
+      </div>
       <section id="#" className="Welcome">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
         <h1>
