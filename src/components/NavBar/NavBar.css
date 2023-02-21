@@ -13,11 +13,12 @@ nav > .logo {
 
 .NavBar {
   position: fixed;
-  z-index: 3;
+  z-index: 6;
   top: 0;
   width: 100%;
   overflow: hidden;
 }
+
 
 nav > a {
   background-color: none;
