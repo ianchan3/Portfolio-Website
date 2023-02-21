@@ -5,6 +5,7 @@ import DayNightFeature from '../DayNightFeature/DayNightFeature';
 export default function NavBar() {
   return (
     <main className="NavBar">
+      <script defer src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <nav>
         <li className='logo'><a href="#" id="logo"><Logo /></a></li>
@@ -18,6 +19,7 @@ export default function NavBar() {
           <i id="icon" class="ri-linkedin-line"></i>
         </a>
         <DayNightFeature />
+        <p className='clickMe'>← Click Me</p>
       </nav>
     </main>
   );

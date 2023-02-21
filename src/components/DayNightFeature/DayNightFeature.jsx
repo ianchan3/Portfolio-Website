@@ -32,10 +32,12 @@ export default function DayNightFeature() {
   };
 
   return (
-    <DayNightToggle
-    onChange= {handleChangeTheme}
-    checked={isDarkMode}
-    animationInactive={false}
-  /> 
+    <main className="DayNightToggle">
+      <DayNightToggle
+        onChange= {handleChangeTheme}
+        checked={isDarkMode}
+        animationInactive={false}
+      /> 
+    </main>
   )
 }

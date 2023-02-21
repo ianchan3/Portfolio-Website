@@ -3,7 +3,7 @@
   border-bottom: 3px solid black;
   padding: 10px;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto ;
   place-items: center;
 }
 
@@ -96,6 +96,13 @@ li > * {
   transform-origin: left top;
   transform: scale(1, 1);
 }
+
+.clickMe {
+  position: absolute;
+  right: 0%;
+  padding-right: 5px;
+}
+
 
 @media screen and (max-width: 1000px) {
   .NavBar nav {
