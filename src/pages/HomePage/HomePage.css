@@ -40,7 +40,7 @@ span > i {
   text-decoration: underline;
 }
 
-@media only screen and (max-width:999px)  {
+@media screen and (max-width:999px)  {
 
   .Technologies > h1 {
     margin: 1.1rem -5px 0 -5px;
@@ -103,7 +103,7 @@ span > i {
   }
 }
 
-@media only screen and (min-width:1000px) {
+@media screen and (min-width:1000px) {
 
   .Welcome {
     margin-bottom: 3.5rem;
@@ -157,38 +157,38 @@ span > i {
 
   }
 
-  @media only screen and (max-width:800px) {
+  @media screen and (max-width:800px) {
     img {
       width: 320px;
       height: 220px;
     }
   }
   
-  @media only screen and (min-width:800px){
+  @media screen and (min-width:800px){
   img {
     width: 375px;
     height: 225px;
   }
   }
 
-  @media only screen and (min-width:1650px) and (max-width:2600px) {
+  @media screen and (min-width:1650px) and (max-width:2600px) {
     #contact * {
       color: white;
     }
   }
-  @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
     #contact * {
       color: white;
     }
   }
 
-  @media only screen and (max-width:1350px) {
+  @media screen and (max-width:1350px) {
     .technologies-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
   }
-  @media only screen and (max-width:1175px) {
+  @media screen and (max-width:1175px) {
     .technologies-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

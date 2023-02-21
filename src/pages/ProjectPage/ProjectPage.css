@@ -36,17 +36,17 @@ img {
   }
 }
 
-@media only screen and (max-width:1175px) {
+@media only screen and (max-width:900px) {
   .ProjectPage p {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media only screen and (max-width:1075px) {
   .projects {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
     margin: 0;
   }
 }

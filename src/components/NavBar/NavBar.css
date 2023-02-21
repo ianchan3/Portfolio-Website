@@ -96,3 +96,23 @@ li > * {
   transform: scale(1, 1);
 }
 
+@media screen and (max-width: 1000px) {
+  .NavBar nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
+
+  .navbar {
+    margin-bottom: 1rem;
+    transform: translateY(15%);
+  }
+
+  div .logo, .Logo {
+    margin: 0;
+  }
+
+  .Welcome h1 {
+    margin-top: 8rem;
+  }
+}
