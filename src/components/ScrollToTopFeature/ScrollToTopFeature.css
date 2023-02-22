@@ -1,0 +1,14 @@
+.top {
+  position: fixed;
+  right: 1%;
+  bottom: 5%;
+  height: 4rem;
+  width: 4rem;
+  color: yellow;
+  background-color: blue;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid black;
+  border-radius: 50px;
+  font-weight: bold;
+}

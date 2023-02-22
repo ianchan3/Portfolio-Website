@@ -3,6 +3,7 @@ import ContactInformation from "../ContactInformation/ContactInformation";
 import ProjectPage from "../ProjectPage/ProjectPage";
 import TechnologiesPage from "../TechnologiesPage/TechnologiesPage";
 import TypingFeature from "../TypingFeature/TypingFeature";
+import ScrollToTopFeature from "../../components/ScrollToTopFeature/ScrollToTopFeature";
 
 export default function HomePage() {
   window.onscroll = () => scrollProgress();
@@ -19,7 +20,6 @@ function scrollProgress() {
   progressBar.style.visibility = "visible";
   progressBar.style.width = scrollPercentage + "%";
 }
-
   return (
     <main className="HomePage">
       <div className="scroll-indicator">
@@ -41,6 +41,7 @@ function scrollProgress() {
       </section>
       <TechnologiesPage />
       <ProjectPage />
+      <ScrollToTopFeature />
       <ContactInformation />
     </main>
   )

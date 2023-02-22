@@ -21,15 +21,24 @@
 }
 
 .sc-dkrFOg {
-  outline: 10px solid yellow;
+  outline: 9px solid var(--header-color);
 }
 
 .DayNightToggle {
-  padding-right: 15px;
+  padding-right: 16px;
 }
 
 @media screen and (max-width: 1600px) {
   .DayNightToggle {
-    padding-right: 50px;
+    padding-right: 55px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .DayNightToggle {
+    padding: 0;
+  }
+}
+
+
+

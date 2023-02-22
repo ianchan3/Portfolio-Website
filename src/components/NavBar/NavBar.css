@@ -50,6 +50,10 @@ li > * {
   font-size: 19px;
 }
 
+.icon--github, .icon--linkedin {
+  color: blue;
+}
+
 .icon--linkedin:hover {
   background-color: #0077b5;
   outline-color: #0077b5;
@@ -73,7 +77,7 @@ li > * {
   font-weight: 900;
   text-transform: uppercase;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-  color: #000;
+  color: blue;
 }
 .navbar::before {
   content: '';
@@ -101,6 +105,38 @@ li > * {
   position: absolute;
   right: 0%;
   padding-right: 5px;
+}
+
+@media screen and (max-width: 750px) {
+  .clickMe {
+    left: 83%;
+    top: 35%;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .clickMe {
+    position: absolute;
+    right: 20%;
+    bottom: 0%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .clickMe {
+    padding-right: 35px;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .clickMe {
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 2600px) {
+  .clickMe {
+    padding-right: 75px;
+  }
 }
 
 
