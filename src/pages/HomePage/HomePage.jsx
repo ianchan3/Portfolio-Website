@@ -27,7 +27,7 @@ function scrollProgress() {
       </div>
       <section id="#" className="Welcome">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-        <h1>
+        <h1 id="greeting">
           Hi 
           <span class="wave">
             👋

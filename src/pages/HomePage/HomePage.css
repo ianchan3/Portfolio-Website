@@ -1,13 +1,14 @@
 .Welcome h1 {
   font-size: 2rem;
-  color: yellow;
+  color: var(--header-color);
 }
 
-.Welcome p, .technologies-container h1 {
+
+.Welcome p, .technologies-container h1, .Technologies h1 {
   color: var(--bg-color);
 }
 
-.ProjectPage h1, .Technologies h1 {
+.ProjectPage h1, .Technologies > h1 {
   color: var(--contact-color); 
 }
 
@@ -41,8 +42,6 @@ span > i {
   font-weight: bold;
   border-top: 4px solid black;
   text-decoration: underline;
-  /* background-color: white; */
-  /* border: 4px solid black; */
 }
 
 @media screen and (max-width:999px)  {

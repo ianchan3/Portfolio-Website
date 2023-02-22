@@ -1,8 +1,9 @@
 [data-theme="light"] {
-  /* background-color: lightblue; */
+  background-color: #F6F6F7;
   --bg-color: black;
   --contact-color: black;
   --title-color: white;
+  --header-color: blue;
   transition: background-color 1050ms ease-in-out;
 }
 
@@ -11,6 +12,7 @@
   --bg-color: white;
   --contact-color: yellow;
   --title-color: yellow;
+  --header-color: yellow;
   transition: background-color 1050ms ease-in-out;
 }
 
