@@ -1,7 +1,6 @@
 .NavBar > nav {
   background-color: white;
-  border-bottom: 3px solid black;
-  padding: 10px;
+  padding: 20px;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto ;
   place-items: center;
@@ -51,7 +50,7 @@ li > * {
 }
 
 .icon--github, .icon--linkedin {
-  color: blue;
+  color: black;
 }
 
 .icon--linkedin:hover {
@@ -77,7 +76,7 @@ li > * {
   font-weight: 900;
   text-transform: uppercase;
   transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-  color: blue;
+  color: black;
 }
 .navbar::before {
   content: '';

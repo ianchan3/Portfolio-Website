@@ -1,5 +1,8 @@
 [data-theme="light"] {
   background-color: #F6F6F7;
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=1480&t=st=1677135119~exp=1677135719~hmac=013a74108c0676a765a1376b67bfe8bacf678ec416221c0b12ea9d161946d4eb");
+  background-size: 1800px;
+  --whiteblack--color: white;
   --bg-color: black;
   --contact-color: black;
   --title-color: white;
@@ -8,7 +11,10 @@
 }
 
 [data-theme="dark"] {
-  background-color: #282c34;
+  background-color: #181C27;
+  background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149011154.jpg?w=1480&t=st=1677177133~exp=1677177733~hmac=046796ae96e86d0bcdb6b9010bcd027b1ae909be7db00fbe4c0438bb6fe67a16");
+  background-size: 1800px;
+  --whiteblack--color: black;
   --bg-color: white;
   --contact-color: yellow;
   --title-color: yellow;
@@ -18,10 +24,6 @@
 
 .project-title {
   color: var(--bg-color);
-}
-
-.sc-dkrFOg {
-  outline: 9px solid var(--header-color);
 }
 
 .DayNightToggle {

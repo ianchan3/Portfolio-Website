@@ -1,19 +1,12 @@
 .Welcome h1 {
-  font-size: 2rem;
-  color: var(--header-color);
+  font-size: 4rem;
+  font-family: "Source Sans Pro" ;
+  font-weight: 700;
 }
 
 
-.Welcome p, .technologies-container h1, .Technologies h1 {
+.Welcome p, .technologies-container h1, .Technologies h1, .Welcome h1, .ProjectPage h1, .Technologies > h1 {
   color: var(--bg-color);
-}
-
-.ProjectPage h1, .Technologies > h1 {
-  color: var(--header-color); 
-}
-
-.Welcome {
-  padding-top: 4rem;
 }
 
 span > i {
@@ -40,7 +33,6 @@ span > i {
 .Technologies > h1, .ProjectPage h1 {
   font-size: 2rem;
   font-weight: bold;
-  border-top: 4px solid black;
   text-decoration: underline;
 }
 
@@ -107,16 +99,23 @@ span > i {
   }
 }
 
+
 @media screen and (min-width:1000px) {
 
-  .Welcome {
-    margin-bottom: 3.5rem;
-  }
-
   .description {
-    margin: 2.5rem 0;
+    margin: 2.5rem auto;
     font-weight: bold;
     font-size: 1.3rem;
+    max-width: 50%;
+  }
+
+  .HomePage {
+    position: absolute;
+    top: 30%;
+  }
+  
+  #Welcome {
+    margin-bottom: 25.5rem;
   }
 
 
@@ -148,7 +147,7 @@ span > i {
     margin-bottom: 3rem;
     padding: 15px 0;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(4,1fr);
     place-items: center;
   }
 
@@ -248,6 +247,6 @@ span > i {
 
 .progress {
   width: 0%;
-  height: 5.5px;
+  height: 4px;
   background-color: blue;
 }

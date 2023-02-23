@@ -16,6 +16,9 @@ footer {
 
 body {
   background-color: #F6F6F7;
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=1480&t=st=1677135119~exp=1677135719~hmac=013a74108c0676a765a1376b67bfe8bacf678ec416221c0b12ea9d161946d4eb");
+  background-repeat: no-repeat;
+  background-size: 100%;
   overflow-x: hidden;
 }
 

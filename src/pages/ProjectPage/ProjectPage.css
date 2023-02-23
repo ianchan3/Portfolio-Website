@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.ProjectPage {
+  background-color: var(--whiteblack-color);
+}
+
  .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
