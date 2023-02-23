@@ -8,7 +8,7 @@
   background-color: blue;
   font-size: 2rem;
   outline: none;
-  border: 3px solid black;
+  border: 3px solid var(--contact-color);
   border-radius: 50px;
   font-weight: bold;
   cursor: pointer;

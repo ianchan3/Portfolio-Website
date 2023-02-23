@@ -2,10 +2,7 @@
   margin-bottom: 5%;
 }
 
-#contact * {
-  color: var(--contact-color);
-  outline-color: var(--contact-color);
-}
+
 
 .icon--linkedin--contact:hover {
   background-color: #0077b5;
@@ -15,6 +12,11 @@
 .icon--github--contact:hover {
   background-color: #2ea44f;
   outline-color: #2ea44f;
+}
+
+#contact-github, #contact-linkedin, #contact-github i, #contact-linkedin i {
+  outline-color: var(--contact-color);
+  color: var(--contact-color);
 }
 
 #contact-github:hover {
@@ -27,6 +29,6 @@
   color: yellow;
 }
 
-#contact * {
+#contact h1, #contact h3 {
   color: var(--bg-color);
 }
