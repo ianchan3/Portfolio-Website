@@ -1,5 +1,5 @@
 [data-theme="light"] {
-  background-color: #ffffff;
+  background-color: #F6F6F7;
   --bg-color: black;
   --contact-color: black;
   --title-color: white;
@@ -21,7 +21,7 @@
 }
 
 .sc-dkrFOg {
-  outline: 9px solid yellow;
+  outline: 9px solid var(--header-color);
 }
 
 .DayNightToggle {

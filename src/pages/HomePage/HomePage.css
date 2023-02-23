@@ -9,7 +9,7 @@
 }
 
 .ProjectPage h1, .Technologies > h1 {
-  color: var(--contact-color); 
+  color: var(--header-color); 
 }
 
 .Welcome {
