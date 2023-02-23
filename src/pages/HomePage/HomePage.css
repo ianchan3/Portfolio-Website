@@ -1,9 +1,8 @@
 .Welcome h1 {
   font-size: 4rem;
-  font-family: "Source Sans Pro" ;
+  font-family: "Source Sans Pro";
   font-weight: 700;
 }
-
 
 .Welcome p, .technologies-container h1, .Technologies h1, .Welcome h1, .ProjectPage h1, .Technologies > h1 {
   color: var(--bg-color);
@@ -31,9 +30,11 @@ span > i {
 }
 
 .Technologies > h1, .ProjectPage h1 {
-  font-size: 2rem;
+  font-size: 2.7rem;
   font-weight: bold;
   text-decoration: underline;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
 }
 
 @media screen and (max-width:999px)  {
@@ -196,6 +197,17 @@ span > i {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       margin-bottom: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .HomePage {
+      position: absolute;
+      top: 10%;
+    }
+
+    #Welcome {
+      margin-bottom: 10rem;
     }
   }
 
