@@ -8,7 +8,7 @@
   background-color: var(--whiteblack-color);
   font-size: 2rem;
   outline: none;
-  border: 3px solid black;
+  border: 4px solid black;
   border-radius: 50px;
   font-weight: bold;
   cursor: pointer;
@@ -17,5 +17,4 @@
 .top:hover {
   background-color: yellow;
   color: black;
-
 }

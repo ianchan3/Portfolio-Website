@@ -22,6 +22,12 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (min-width: 1850px)  {
+  body {
+    background-size: 3450px 1200px;
+  }
+}
+
 * {
   scroll-behavior: smooth;
 }
