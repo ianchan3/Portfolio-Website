@@ -4,9 +4,14 @@
 
 .ProjectPage > p {
   display: grid;
-  grid-template-columns: auto ;
-  justify-content: center;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
   margin-bottom: 10rem;
+}
+
+.ProjectPage h1 {
+  margin: 1.9rem -3rem 3rem -3rem;
+  padding: 15px 0;
 }
 
  .projects {
@@ -27,6 +32,22 @@ p > a {
 img {
   color: black;
   outline: 4.5px solid black;
+}
+
+@media screen and (min-width: 1200px) {
+  .ProjectPage img {
+    height: 20rem;
+    width: 30rem;
+  }
+
+  .ProjectPage img, .ProjectPage h2 {
+    margin: 5rem 6rem 0 10rem;
+  }
+
+  .project-info {
+    padding-top: 6.7rem;
+    max-width: 80%;
+  }
 }
 
 @media only screen and (max-width:1350px) {

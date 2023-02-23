@@ -17,18 +17,6 @@ span > i {
   font-weight: bold;
 }
 
-.ProjectPage h1 {
-  margin: 1.9rem -3rem 3rem -3rem;
-  padding: 15px 0;
-}
-
-.ProjectPage {
-  border-bottom: 4px solid black;
-  margin: -0.5rem -0.3rem 0 -0.3rem;
-  padding: 2rem;
-  padding-bottom: 1.5rem;
-}
-
 .Technologies > h1, .ProjectPage h1 {
   font-size: 2.7rem;
   font-weight: bold;
@@ -40,7 +28,7 @@ span > i {
 @media screen and (max-width:999px)  {
 
   .Technologies > h1 {
-    margin: 1.1rem -5px 0 -5px;
+    margin: 5rem -5px 0 -5px;
   }
 
   .technologies-container {
@@ -118,7 +106,6 @@ span > i {
   #Welcome {
     margin-bottom: 25.5rem;
   }
-
 
   span > h1 {
     font-size: 25px;
@@ -266,8 +253,8 @@ span > i {
 .mouse {
   width: 25px;
   height: 40px;
-  border: 2px solid black;
-  outline: 2.5px solid white;
+  border: 2px solid #111111 ;
+  outline: 2.5px solid #EAEAEA;
   border-radius: 60px;
   position: relative;
   overflow: hidden; 
@@ -289,7 +276,7 @@ span > i {
 }
 .home-hero__mouse-scroll-cont {
   position: absolute;
-  top: 18.3%;
+  top: 47rem;
   left: 50%;
   transform: translateX(-50%);
 }
