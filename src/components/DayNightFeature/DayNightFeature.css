@@ -42,5 +42,15 @@
   }
 }
 
+@media screen and (min-width: 1850px)  {
+  [data-theme="light"] {
+    background-size: 3450px 1200px;
+
+  }
+  
+  [data-theme="dark"] {
+    background-size: 3450px 1200px;
+  }
+}
 
 
