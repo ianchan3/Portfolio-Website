@@ -22,7 +22,7 @@ export default function ProjectPage() {
             <span>Logistics Website</span>
             <br></br>
             <span>Vue | Node | Sequelize | Bootstrap</span>
-            <h3 className="project-info">Currently, I am interning at T Express, a logistics and transportation company that ships packages to East Asia. As part of my role, I assist in implementing new features and fixing software bugs within the Vue, Sequelize, and BootStrap application. I have experience in developing product features from initial design documentation to final implementation, testing, and deployment. </h3>
+            <h3 className="project-info">Currently, I am interning at T Express, a logistics and transportation company that ships packages to East Asia. As part of my role, I assist in implementing new features and fixing software bugs within the Vue, Sequelize, and BootStrap application. I also contribute in developing product features from initial design to final implementation, testing, and deployment. </h3>
           </div>
           <Link to="/projects/FeelTheHeat"><img src="https://i.imgur.com/4Cw2lUX.jpg" alt="Feel The Heat?" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
