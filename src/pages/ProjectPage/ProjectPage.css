@@ -34,11 +34,11 @@ img {
 
 .ProjectPage img {
   border-radius: 10px;
-  box-shadow: 20px 15px var(--project-description);
+  box-shadow: 20px 15px #F9C811;
 }
 
 .ProjectPage img:hover {
-  box-shadow: 15px 10px var(--project-description);
+  box-shadow: 15px 10px #F9C811;
 }
 
 .project-title {
@@ -46,7 +46,7 @@ img {
 }
 
 .project-info-container span:first-child {
-  color: var(--project-description);
+  color: #F9C811;
   font-weight: 1000px;
   font-size: 2rem;
 }
@@ -61,7 +61,7 @@ img {
 }
 
 .project-info {
-  background-color: #f5f2f2;
+  background-color: #f7f7f9;
   padding: 1rem;
   font-size: 1.4rem;
   outline: 4px solid black;
