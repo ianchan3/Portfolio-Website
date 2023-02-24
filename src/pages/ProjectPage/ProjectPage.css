@@ -2,7 +2,7 @@
   --primary-darkest: rgb(23,28,40);
   --primary-dark: rgb(28,36,50);
   --primary-light: rgb(172, 181, 207);
-  --accent: #6DCFCB;
+  --accent: #F9C811;
 }
 
 .ProjectPage > p {
@@ -29,35 +29,44 @@ p > a {
 
 img {
   color: black;
-  outline: 4.5px solid #6DCFCB;
+  outline: 4.5px solid black;
+}
+
+.ProjectPage img {
+  border-radius: 10px;
+  box-shadow: 20px 15px var(--project-description);
+}
+
+.ProjectPage img:hover {
+  box-shadow: 15px 10px var(--project-description);
 }
 
 .project-title {
   color: var(--bg-color);
 }
 
-.project-info-container span:first-child, h3 {
-  color: #6DCFCB;
+.project-info-container span:first-child {
+  color: var(--project-description);
   font-weight: 1000px;
+  font-size: 2rem;
 }
 
 .project-info-container span:nth-child(3) {
   margin-top: -1rem;
-  color: var(--project-description);
+}
+
+.project-info-container span:nth-child(3), .project-info-container span:nth-child(5) {
+  font-size: 1.5rem;
+  color: var(--bg-color);
 }
 
 .project-info {
   background-color: #f5f2f2;
   padding: 1rem;
   font-size: 1.4rem;
-  outline: 2px solid black;
+  outline: 4px solid black;
   border-radius: 30px;
 }
-
-.project-info-container span {
-  font-size: 2rem;
-}
-
 
 
 @media screen and (max-width: 890px) {
@@ -116,7 +125,7 @@ img {
 
   .project-info-container span, .project-info {
     margin-right: 3rem;
-    text-align: end;
+    text-align: center;
     font-family: "Source Sans Pro";
   }
 }
@@ -127,9 +136,13 @@ img {
     width: 70rem;
     margin-top: 13rem;
   }
-  .project-info-container span {
+  .project-info-container span:first-child {
     font-size: 3.5rem;
   }
+  .project-info-container span:nth-child(3), .project-info-container span:nth-child(5) {
+    font-size: 2.5rem;
+  }
+
   .project-info {
     font-size: 2rem;
   }

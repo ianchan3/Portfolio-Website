@@ -129,9 +129,8 @@ span > i {
 
   .technologies-container {
     background-color: rgb(255, 255, 255, 0);
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
-    padding: 15px 0;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     place-items: center;
@@ -145,7 +144,7 @@ span > i {
   }
   }
 
-  /* @media screen and (max-width:799px) {
+  @media screen and (max-width:799px) {
     img {
       width: 320px;
       height: 220px;
@@ -157,7 +156,7 @@ span > i {
     width: 375px;
     height: 225px;
   }
-  } */
+  }
 
   @media screen and (min-width: 1800px) {
     #Welcome {
@@ -249,7 +248,7 @@ span > i {
 .progress {
   width: 0%;
   height: 4px;
-  background-color: #6DCFCB;
+  background-color: #F9C811;
 }
 
 .mouse {
