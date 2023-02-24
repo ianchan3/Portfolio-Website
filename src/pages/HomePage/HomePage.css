@@ -20,7 +20,6 @@ span > i {
 .Technologies > h1, .ProjectPage h1 {
   font-size: 2.7rem;
   font-weight: bold;
-  text-decoration: underline;
   font-family: "Source Sans Pro";
   font-weight: 700;
 }
@@ -100,11 +99,11 @@ span > i {
 
   .HomePage {
     position: absolute;
-    top: 30%;
+    top: 22%;
   }
   
   #Welcome {
-    margin-bottom: 25.5rem;
+    margin-bottom: 23rem;
   }
 
   span > h1 {
@@ -128,7 +127,6 @@ span > i {
     padding: 1rem 0;
   }
 
-
   .technologies-container {
     background-color: rgb(255, 255, 255, 0);
     margin-top: 1.5rem;
@@ -145,10 +143,9 @@ span > i {
     margin: 12px;
     font-weight: bold;
   }
-
   }
 
-  @media screen and (max-width:800px) {
+  /* @media screen and (max-width:799px) {
     img {
       width: 320px;
       height: 220px;
@@ -160,6 +157,12 @@ span > i {
     width: 375px;
     height: 225px;
   }
+  } */
+
+  @media screen and (min-width: 1800px) {
+    #Welcome {
+      margin-bottom: 32rem;
+    }
   }
 
   @media screen and (min-width:1650px) and (max-width:2600px) {
@@ -232,7 +235,6 @@ span > i {
   color: var(--contact-color);
 }
 
-
 .scroll-indicator {
   width: 100%;
   height: 3px;
@@ -247,7 +249,7 @@ span > i {
 .progress {
   width: 0%;
   height: 4px;
-  background-color: blue;
+  background-color: #6DCFCB;
 }
 
 .mouse {
@@ -276,7 +278,7 @@ span > i {
 }
 .home-hero__mouse-scroll-cont {
   position: absolute;
-  top: 47rem;
+  top: 40rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -291,4 +293,16 @@ span > i {
   to {
     opacity: 0;
     top: 27px; } 
+  }
+
+
+  @media screen and (max-width: 700px) {
+
+    .home-hero__mouse-scroll-cont {
+      position: absolute;
+      top: 51rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
   }

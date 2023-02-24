@@ -1,17 +1,18 @@
 [data-theme="light"] {
   background-color: #F6F6F7;
-  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=1480&t=st=1677135119~exp=1677135719~hmac=013a74108c0676a765a1376b67bfe8bacf678ec416221c0b12ea9d161946d4eb");
+  background-image: url("../4880206.jpg");
   background-size: 1800px;
   --whiteblack-color: white;
   --bg-color: black;
   --contact-color: black;
   --title-color: white;
   --header-color: blue;
+  --project-description: black;
   transition: background-color 1050ms ease-in-out;
 }
 
 [data-theme="dark"] {
-  background-color: #181C27;
+  background-color: #0d0e13;
   background-image: url("../5631804.jpg");
   background-size: 1800px;
   --whiteblack-color: black;
@@ -19,11 +20,8 @@
   --contact-color: yellow;
   --title-color: yellow;
   --header-color: yellow;
+  --project-description: #AEB5CD;
   transition: background-color 1050ms ease-in-out;
-}
-
-.project-title {
-  color: var(--bg-color);
 }
 
 .DayNightToggle {
@@ -43,14 +41,32 @@
 }
 
 @media screen and (min-width: 1850px)  {
-  [data-theme="light"] {
-    background-size: 3450px 1200px;
-
-  }
-  
-  [data-theme="dark"] {
+  [data-theme="light"], [data-theme="dark"]  {
     background-size: 3450px 1200px;
   }
 }
 
+@media screen and (max-width: 1050px) {
+  [data-theme="light"], [data-theme="dark"] {
+    background-size: 1800px 870px;
+  }
+}
+
+
+@media screen and (min-width: 1300px) {
+  [data-theme="light"], [data-theme="dark"] {
+    background-size: 1800px 900px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  [data-theme="light"], [data-theme="dark"] {
+    background-size: 1900px 1000px;
+  }
+}
+
+@media screen and (min-width: 1850px)  {
+  [data-theme="light"], [data-theme="dark"] {
+    background-size: 3450px 1200px;
+  }
+}
 

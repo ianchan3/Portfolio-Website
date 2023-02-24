@@ -10,7 +10,9 @@ export default function TechnologiesPage() {
     <section id="two">
       <main className="TechnologyPage">
         <span className="Technologies">
-          <h1>Technologies Used</h1>
+          <h1>TECHNOLOGIES USED</h1>
+          <div className="horizontal-line-effect left"></div>
+          <div className="horizontal-line-effect right"></div>
           <br/>
           <span className="technologies-container">
             <i className="devicon-html5-plain colored" data-aos="flip-left"></i>

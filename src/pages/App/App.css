@@ -3,7 +3,7 @@
 }
 
 footer {
-  color: blue;
+  color: #6DCFCB;
   position: absolute;
   position: fixed;
   width: 100%;
@@ -16,10 +16,28 @@ footer {
 
 body {
   background-color: #F6F6F7;
-  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=1480&t=st=1677135119~exp=1677135719~hmac=013a74108c0676a765a1376b67bfe8bacf678ec416221c0b12ea9d161946d4eb");
+  background-image: url("../../components/4880206.jpg");
   background-repeat: no-repeat;
-  background-size: 1800px;
+  background-size: 1800px 1000px;
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 1050px) {
+  body {
+    background-size: 1800px 870px;
+  }
+}
+
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-size: 1800px 900px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body {
+    background-size: 1900px 1000px;
+  }
 }
 
 @media screen and (min-width: 1850px)  {

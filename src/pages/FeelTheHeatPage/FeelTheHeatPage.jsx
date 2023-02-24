@@ -8,6 +8,9 @@ export default function FeelTheHeatPage() {
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1 className="project-title">Feel the Heat? </h1>
+      <div className="horizontal-line-effect left"></div>
+      <div className="horizontal-line-effect right"></div>
+      <br></br>
       <h2>HTML | CSS | JavaScript | MongoDB | Express.js | Node.js</h2>
       <div className="links">
         <p>Feel The Heat is a online blog community where users may post interesting articles to inform others about climate change and global warning.</p>

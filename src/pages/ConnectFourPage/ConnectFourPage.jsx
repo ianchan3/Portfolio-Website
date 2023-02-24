@@ -8,6 +8,9 @@ export default function ConnectFourPage() {
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
       <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"></link>
       <h1 className="project-title">Connect Four</h1>
+      <div className="horizontal-line-effect left"></div>
+      <div className="horizontal-line-effect right"></div>
+      <br></br>
       <h2>HTML | CSS | JavaScript</h2>
       <span className="links">
         <p>Play a game of Connect Four with your friends or family! First to 4 in a row, diagonal, vertical or horizontal, wins the game!</p>

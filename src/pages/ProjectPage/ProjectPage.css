@@ -1,5 +1,8 @@
-.ProjectPage > h1 {
-  text-decoration: underline;
+:root {
+  --primary-darkest: rgb(23,28,40);
+  --primary-dark: rgb(28,36,50);
+  --primary-light: rgb(172, 181, 207);
+  --accent: #6DCFCB;
 }
 
 .ProjectPage > p {
@@ -7,11 +10,6 @@
   grid-template-columns: auto auto;
   justify-content: flex-start;
   margin-bottom: 10rem;
-}
-
-.ProjectPage h1 {
-  margin: 1.9rem -3rem 3rem -3rem;
-  padding: 15px 0;
 }
 
  .projects {
@@ -31,22 +29,109 @@ p > a {
 
 img {
   color: black;
-  outline: 4.5px solid black;
+  outline: 4.5px solid #6DCFCB;
 }
 
-@media screen and (min-width: 1200px) {
+.project-title {
+  color: var(--bg-color);
+}
+
+.project-info-container span:first-child, h3 {
+  color: #6DCFCB;
+  font-weight: 1000px;
+}
+
+.project-info-container span:nth-child(3) {
+  margin-top: -1rem;
+  color: var(--project-description);
+}
+
+.project-info {
+  background-color: #f5f2f2;
+  padding: 1rem;
+  font-size: 1.4rem;
+  outline: 2px solid black;
+  border-radius: 30px;
+}
+
+.project-info-container span {
+  font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 890px) {
+.ProjectPage > p {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+  .project-info-container {
+    margin-left: 3rem;
+  }
+
+  .ProjectPage img {
+    height: 1rem;
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .project-info {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1249px) {
+  .ProjectPage img {
+    margin: 4rem;
+  }
+
+  .project-info-container {
+    margin-top: 4.9rem;
+    margin-right: 2rem;
+  }
+
   .ProjectPage img {
     height: 20rem;
     width: 30rem;
   }
+}
 
-  .ProjectPage img, .ProjectPage h2 {
+@media screen and (min-width: 1250px) {
+
+  .ProjectPage img {
+    height: 20rem;
+    width: 30rem;
     margin: 5rem 6rem 0 10rem;
   }
 
+  .project-info-container {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-info-container span, .project-info {
+    margin-right: 3rem;
+    text-align: end;
+    font-family: "Source Sans Pro";
+  }
+}
+
+@media screen and (min-width: 2150px) {
+  .ProjectPage img {
+    height: 35rem;
+    width: 70rem;
+    margin-top: 13rem;
+  }
+  .project-info-container span {
+    font-size: 3.5rem;
+  }
   .project-info {
-    padding-top: 6.7rem;
-    max-width: 80%;
+    font-size: 2rem;
   }
 }
 
@@ -69,5 +154,88 @@ img {
     display: flex;
     flex-direction: column;
     margin: 0;
+  }
+}
+
+.line-effects {
+  position: absolute;
+  margin: 5rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.line-effect-container.horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.horizontal-line-effect {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 3px;
+  background-image: linear-gradient(90deg, var(--accent), var(--primary-dark), var(--accent), var(--primary-dark), var(--accent));
+}
+
+.horizontal-line-effect.left {
+  animation: horizLineEffectPulse 2s linear;
+  animation-iteration-count: infinite;
+}
+
+.horizontal-line-effect.right {
+  left: 0;
+  right: -100%;
+  animation: reverseHorizLineEffectPulse 2s linear;
+  animation-iteration-count: infinite;
+}
+
+.line-effect-container.vertical {
+  position: absolute;
+  top: calc(2.441rem / 2);
+  height: 100%;
+  overflow: hidden;
+}
+
+.line-effect-container.vertical.right {
+  right: 0;
+}
+
+.vertical-line-effect {
+  width: 2px;
+  height: 200%;
+  background-image: linear-gradient(var(--accent), var(--primary-dark), var(--accent), var(--primary-dark), var(--accent));
+  animation: vertLineEffectPulse 2s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes horizLineEffectPulse {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(50%);
+  }
+}
+
+@keyframes reverseHorizLineEffectPulse {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+@keyframes vertLineEffectPulse {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-50%);
   }
 }
