@@ -46,7 +46,7 @@ img {
 }
 
 .project-info-container span:first-child {
-  color: #F9C811;
+  color: var(--project-description);
   font-weight: 1000px;
   font-size: 2rem;
 }
