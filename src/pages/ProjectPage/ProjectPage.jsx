@@ -24,6 +24,15 @@ export default function ProjectPage() {
             <span>Vue | Node | Sequelize | Bootstrap</span>
             <h3 className="project-info">Currently, I am interning at T Express, a logistics and transportation company that ships packages to East Asia. As part of my role, I assist in implementing new features and fixing software bugs within the Vue, Sequelize, and BootStrap application. I also contribute in developing product features from initial design to final implementation, testing, and deployment. </h3>
           </div>
+          <Link to="/projects/WeatherPage"><img src="https://i.imgur.com/u5DwAWZ.jpg" alt="Weather Forecast" data-aos="flip-right"></img></Link>
+          <div className="project-info-container" data-aos="fade-left">
+            <span>Weather Forecast</span>
+            <br></br>
+            <span>Weather App</span>
+            <br></br>
+            <span>HTML | CSS | JavaScript | React</span>
+            <h3 className="project-info">The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </h3>
+          </div>
           <Link to="/projects/FeelTheHeat"><img src="https://i.imgur.com/4Cw2lUX.jpg" alt="Feel The Heat?" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>Feel The Heat</span>
@@ -40,7 +49,7 @@ export default function ProjectPage() {
             <span>Web App</span>
             <br></br>
             <span>HTML | CSS | JavaScript</span>
-           <h3 className="project-info">Calculator App with a splash of financial background design and keydown functionality. This calculator can handle arbitrary arithmetic calculations as well as additional functions such as parentheses, pi, square root, sqaure, and percentage.</h3>
+           <h3 className="project-info">Calculator app with a splash of financial background design and keydown functionality. This calculator can handle arbitrary arithmetic calculations as well as additional functions such as parentheses, pi, square root, sqaure, and percentage.</h3>
           </div>
           <Link to="/projects/ConnectFour"><img src="https://i.imgur.com/ZaLPJld.jpg" alt="Connect Four" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">

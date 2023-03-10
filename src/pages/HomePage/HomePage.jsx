@@ -2,7 +2,7 @@ import "./HomePage.css";
 import ContactInformation from "../ContactInformation/ContactInformation";
 import ProjectPage from "../ProjectPage/ProjectPage";
 import TechnologiesPage from "../TechnologiesPage/TechnologiesPage";
-import TypingFeature from "../TypingFeature/TypingFeature";
+import TypingFeature from "../../components/TypingFeature/TypingFeature";
 import ScrollToTopFeature from "../../components/ScrollToTopFeature/ScrollToTopFeature";
 
 export default function HomePage() {
