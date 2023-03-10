@@ -15,11 +15,11 @@ export default function ConnectFourPage() {
       <span className="links">
         <p>Play a game of Connect Four with your friends or family! First to 4 in a row, diagonal, vertical or horizontal, wins the game!</p>
         <p>Utilized JavaScript to create winning game logic, vertical, horizontal, and vertical, and HTML/CSS to create a polished user-friendly web browser game</p>
-        <a href="https://ianchan3.github.io/Connect-Four/" target="blank" className="icon icon--link">
+        <a href="https://ianchan3.github.io/Connect-Four/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>
-        <a href="https://github.com/ianchan3/Connect-Four" target="blank" className="icon icon--github">
+        <a href="https://github.com/ianchan3/Connect-Four" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
         <div className="projects">

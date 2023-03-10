@@ -15,11 +15,11 @@ export default function CalculatorPage() {
       <span className="links">
         <p>Try this nifty calculator with a splash of financial background design</p>
         <p>This calculator app can handle arithmetic calculations along with other functions such as parentheses, pi, square root, squared and percentage.</p>
-        <a href="https://ianchancalculatorapp.netlify.app/" target="blank" id="github" className="icon icon--link">
+        <a href="https://ianchancalculatorapp.netlify.app/" target="_blank" id="github" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>
-        <a href="https://github.com/ianchan3/Calculator-App" target="blank" className="icon icon--github">
+        <a href="https://github.com/ianchan3/Calculator-App" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
         <div className="projects">

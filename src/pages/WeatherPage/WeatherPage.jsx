@@ -15,11 +15,11 @@ export default function WeatherPage() {
       <h2>React | HTML | CSS | JavaScript</h2>
       <span className="links">
         <p>The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </p>
-        <a href="https://ianchanweatherapp.netlify.app/" target="blank" className="icon icon--link">
+        <a href="https://ianchanweatherapp.netlify.app/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>
-        <a href="https://github.com/ianchan3/weather-app" target="blank" className="icon icon--github">
+        <a href="https://github.com/ianchan3/weather-app" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
       </span>

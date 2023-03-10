@@ -15,11 +15,11 @@ export default function GrowGreenPage() {
       <span className="links">
         <p>Grow Green is a donation website where users may donate money to plant trees and help the environment by fighting climate change.</p>
         <p>Implemented CRUD features so user may donate money to plant trees. Users are able to view only their donation history and delete their donations.</p>
-        <a href="https://grow-green-p4.herokuapp.com/" target="blank" className="icon icon--link">
+        <a href="https://grow-green-p4.herokuapp.com/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>
-        <a href="https://github.com/ianchan3/Grow-Green" target="blank" className="icon icon--github">
+        <a href="https://github.com/ianchan3/Grow-Green" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
       </span>

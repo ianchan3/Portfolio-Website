@@ -14,7 +14,7 @@ export default function TExpressPage() {
       <h2>Vue | Node | Sequelize | Bootstrap</h2>
       <span className="links">
         <p>T Express is a application created to manage the logistics of shipments and pallets, used in real world, that allows employees to create shipments, organize pallets, and keep track of records. </p>
-        <a href="https://texpress-dev.netlify.app/login/" target="blank" className="icon icon--link">
+        <a href="https://texpress-dev.netlify.app/login/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>

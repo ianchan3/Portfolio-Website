@@ -15,11 +15,11 @@ export default function FeelTheHeatPage() {
       <div className="links">
         <p>Feel The Heat is a online blog community where users may post interesting articles to inform others about climate change and global warning.</p>
         <p>Implemented CRUD features so users may post comments to articles, update, and delete their own comments. The project is user centric and users may only delete their own comments and articles.</p>
-        <a href="https://feeltheheatblog.herokuapp.com/" target="blank" className="icon icon--link">
+        <a href="https://feeltheheatblog.herokuapp.com/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>
-        <a href="https://github.com/ianchan3/Climate-Change-Blog" target="blank" className="icon icon--github">
+        <a href="https://github.com/ianchan3/Climate-Change-Blog" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
       </div>
