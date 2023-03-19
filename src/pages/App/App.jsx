@@ -7,6 +7,7 @@ import CalculatorPage from "../CalculatorPage/CalculatorPage";
 import GrowGreenPage from "../GrowGreenPage/GrowGreenPage";
 import TExpressPage from "../TExpressPage/TExpressPage";
 import WeatherPage from "../WeatherPage/WeatherPage";
+import ChoresForCoinsPage from "../ChoresForCoins/ChoresForCoins";
 import NavBar from "../../components/NavBar/NavBar";
 import { Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/projects/GrowGreen" element={<GrowGreenPage/>}/>
         <Route path="/projects/Calculator" element={<CalculatorPage/>}/>
         <Route path="/projects/TExpress" element={<TExpressPage/>}/>
+        <Route path="/projects/ChoresForCoins" element={<ChoresForCoinsPage/>}/>
       </Routes>
     <footer>ⓒ 2022 Ian Chan All Rights Reserved</footer>
     </main>

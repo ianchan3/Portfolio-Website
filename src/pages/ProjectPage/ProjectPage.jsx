@@ -24,6 +24,15 @@ export default function ProjectPage() {
             <span>Vue | Node | Sequelize | Bootstrap</span>
             <h3 className="project-info">Currently, I am interning at T Express, a logistics and transportation company that ships packages to East Asia. As part of my role, I assist in implementing new features and fixing software bugs within the Vue, Sequelize, and BootStrap application. I also contribute in developing product features from initial design to final implementation, testing, and deployment. </h3>
           </div>
+          <Link to="/projects/ChoresForCoins"><img src="https://i.imgur.com/xXd964v.png" alt="Chores For Coins" data-aos="flip-right"></img></Link>
+          <div className="project-info-container" data-aos="fade-left">
+            <span>Chores For Coins</span>
+            <br></br>
+            <span>1st Place Hackathon - Mobile Gamification App</span>
+            <br></br>
+            <span>HTML | CSS | JavaScript | MongoDB | Express | React | Node.js | Redux</span>
+            <h3 className="project-info">1st Place Hackathon in my 1st Hackathon!!! Our team worked in agile environment with only 3 days to develop an app with the theme of gamification. The app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! Track your child’s progress with a gameboard, and watch them get closer to their goal as they complete more chores!</h3>
+          </div>
           <Link to="/projects/WeatherPage"><img src="https://i.imgur.com/u5DwAWZ.jpg" alt="Weather Forecast" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>Weather Forecast</span>
