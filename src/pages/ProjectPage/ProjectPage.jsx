@@ -28,7 +28,9 @@ export default function ProjectPage() {
           <div className="project-info-container" data-aos="fade-left">
             <span>Chores For Coins</span>
             <br></br>
-            <span>1st Place Hackathon - Mobile Gamification App</span>
+            <span>1st Place Hackathon - General Assembly Spring 2023 Hackathon</span>
+            <br></br>
+            <span>Mobile Gamification App</span>
             <br></br>
             <span>HTML | CSS | JavaScript | MongoDB | Express | React | Node.js | Redux</span>
             <h3 className="project-info">1st Place Hackathon in my 1st Hackathon!!! Our team worked in agile environment with only 3 days to develop an app with the theme of gamification. The app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! Track your child’s progress with a gameboard, and watch them get closer to their goal as they complete more chores!</h3>

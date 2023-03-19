@@ -20,7 +20,7 @@ export default function ChoresForCoins() {
           <i className="em em-link" ></i>
         </a>
         <br/>
-        <a href="https://github.com/ianchan3/Grow-Green" target="_blank" className="icon icon--github">
+        <a href="https://github.com/brendonvan/GA-SHT7" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
       </span>
