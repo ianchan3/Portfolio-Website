@@ -38,7 +38,7 @@ span > i {
     padding: 25px 0 0 0;
   }
 
-  .ProjectPage h1 {
+  .ProjectPage h1, .Technologies h1:first-child {
     font-size: 2rem;
   }
   
@@ -221,7 +221,6 @@ span > i {
     100% { transform: rotate( 0.0deg) }
   }
 
-
 .links > a {
   margin: 10px;
   color: var(--contact-color);
@@ -293,13 +292,11 @@ span > i {
     top: 27px; } 
   }
 
-  @media screen and (max-width: 700px) {
-
-    .home-hero__mouse-scroll-cont {
-      position: absolute;
-      top: 42rem;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
+@media screen and (max-width: 700px) {
+  .home-hero__mouse-scroll-cont {
+    position: absolute;
+    top: 47rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
+}
