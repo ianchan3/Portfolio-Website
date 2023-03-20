@@ -64,16 +64,20 @@ img {
   border-radius: 30px;
 }
 
-@media screen and (max-width: 550px) {
-  .ProjectPage img {
-    position: absolute;
-    left: -12%;
-    box-shadow: 10px 10px #F9C811;
+@media screen and (min-width: 350px) and (max-width: 400px) {
+  
+  #TExpress, #Chores, #Weather, #ClimateChange, #Calculator, #ConnectFour, #GrowGreen, #LoveStruck {
+    margin-left: -0.5rem;
   }
+}
+
+@media screen and (min-width: 350px) and (max-width: 580px) {
 
   #TExpress, #Chores, #Weather, #ClimateChange, #Calculator, #ConnectFour, #GrowGreen, #LoveStruck {
     width: 22rem;
     height: 15rem;
+    left: 0%;
+    border: 10px 10px #F9C811;
   }
 
   .projectPage-link {
