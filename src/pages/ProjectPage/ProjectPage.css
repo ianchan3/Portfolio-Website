@@ -71,7 +71,12 @@ img {
     box-shadow: 10px 10px #F9C811;
   }
 
-  .projectPage-image {
+  #TExpress, #Chores, #Weather, #ClimateChange, #Calculator, #ConnectFour, #GrowGreen, #LoveStruck {
+    width: 22rem;
+    height: 15rem;
+  }
+
+  .projectPage-link {
     width: 16px;
     height: 16px;
     padding-bottom: 25rem;
