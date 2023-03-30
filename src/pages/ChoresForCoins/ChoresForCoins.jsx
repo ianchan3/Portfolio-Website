@@ -16,7 +16,7 @@ export default function ChoresForCoins() {
         <p>The mobile app was designed to assist parents in teaching their children the value of money and patience. </p>
         <p>Our mobile app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! </p> 
         <p>Track your child’s progress with a gameboard, and watch them get closer to their goal as they complete more chores!</p>
-        <a href="https://grow-green-p4.herokuapp.com/" target="_blank" className="icon icon--link">
+        <a href="https://chores-for-coins.netlify.app/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br/>

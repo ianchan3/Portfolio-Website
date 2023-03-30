@@ -11,7 +11,7 @@ export default function NavBarReturn() {
         <Link to ="/" className="logo"><Logo /></Link>
         <li><Link to ="/#two" className="navbar">About Me</Link></li>
         <li><Link to ="/#three" className="navbar">Projects</Link></li>
-        <li><a href="https://drive.google.com/file/d/1c-psynSp7Jkzdxnr6Cq7Hd-Wow2ICx8a/view?usp=sharing" target="blank" className="navbar">Resume</a></li>
+        <li><a href="https://drive.google.com/file/d/1WEbE-I4O-Uz0BlW_t9WH96k_stebgnY7/view?usp=sharing" target="blank" className="navbar">Resume</a></li>
         <a href="https://github.com/ianchan3/" target="blank" id="navbar"class="icon icon--github">
           <i id="navbar" class="ri-github-line"></i>
         </a>
