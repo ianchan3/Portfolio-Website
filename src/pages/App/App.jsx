@@ -9,6 +9,7 @@ import TExpressPage from "../TExpressPage/TExpressPage";
 import WeatherPage from "../WeatherPage/WeatherPage";
 import ChoresForCoinsPage from "../ChoresForCoins/ChoresForCoins";
 import NavBar from "../../components/NavBar/NavBar";
+
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {

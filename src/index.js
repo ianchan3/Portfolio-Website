@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App/App';
 import { BrowserRouter as Router } from 'react-router-dom';
+import AutoScrollToTop from './components/AutoScrollToTop/AutoScrollToTop';
 
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router><App /></Router>
+    <Router>
+      <AutoScrollToTop>
+        <App />
+      </AutoScrollToTop>
+    </Router>
   </React.StrictMode>
 );
 
