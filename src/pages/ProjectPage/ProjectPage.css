@@ -12,17 +12,6 @@
   margin-bottom: 10rem;
 }
 
- .projects {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
-  margin: 0 10rem;
-}
-
-.projects > img {
-  margin: 2rem 0;
-}
-
 p > a {
   padding: 20px;
 }
@@ -67,7 +56,11 @@ img {
 @media screen and (min-width: 350px) and (max-width: 400px) {
   
   #TExpress, #Chores, #Weather, #ClimateChange, #Calculator, #ConnectFour, #GrowGreen, #LoveStruck {
-    margin-left: -0.5rem;
+    margin: 0;
+  }
+
+  .projectPage-link {
+    padding-left: 0;
   }
 }
 
@@ -83,7 +76,7 @@ img {
   .projectPage-link {
     width: 16px;
     height: 16px;
-    padding-bottom: 25rem;
+    padding-bottom: 17rem;
   }
 }
 

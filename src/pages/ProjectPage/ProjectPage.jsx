@@ -14,7 +14,7 @@ export default function ProjectPage() {
         <h1>PROJECTS & EXPERIENCE</h1>
         <div className="horizontal-line-effect left"></div>
         <div className="horizontal-line-effect right"></div>
-        <p>
+        <p className="allProjects">
           <Link className="projectPage-link"to="/projects/TExpress"><img id="TExpress" src="https://i.imgur.com/oXqGh1z.png" alt="T Express" data-aos="fade-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>T Express</span>
