@@ -12,6 +12,17 @@
   margin-bottom: 10rem;
 }
 
+ .projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  margin: 0 10rem;
+}
+
+.projects > img {
+  margin: 2rem 0;
+}
+
 p > a {
   padding: 20px;
 }
