@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+main {
+  overflow-x: hidden;
+}
 
 footer {
   color: black;
@@ -17,18 +20,18 @@ footer {
 body {
   background-image: url("../../components/4880206.jpg");
   background-repeat: no-repeat;
-  background-size: 170%;
+  background-size: 168%;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 900px) {
   body {
-    background-size: 400%;
+    background-size: 350%;
   }
 }
 @media screen and (max-width: 500px) {
   body {
-    background-size: 450%;
+    background-size: 500%;
   }
 }
 @media screen and (min-width: 1750px) {
@@ -50,11 +53,11 @@ body {
   body {
     background-size: 7000px 2005px;
   }
-  
 }
 
 * {
   scroll-behavior: smooth;
+  
 }
 
 /* .project-title {
