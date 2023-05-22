@@ -1,7 +1,7 @@
 [data-theme="light"] {
-  background-color: rgb(255, 255, 255);
+  background-color: #F9F9F9;
   background-image: url("../4880206.jpg");
-  background-size: 1800px;
+  --background-color: #F9F9F9;
   --whiteblack-color: white;
   --bg-color: black;
   --contact-color: black;
@@ -14,7 +14,7 @@
 [data-theme="dark"] {
   background-color: #0d0e13;
   background-image: url("../5631804.jpg");
-  background-size: 1800px;
+  --background-color: #0d0e13;
   --whiteblack-color: black;
   --bg-color: white;
   --contact-color: yellow;
@@ -39,34 +39,3 @@
     padding: 0;
   }
 }
-
-@media screen and (min-width: 1850px)  {
-  [data-theme="light"], [data-theme="dark"]  {
-    background-size: 3450px 1200px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  [data-theme="light"], [data-theme="dark"] {
-    background-size: 1800px 870px;
-  }
-}
-
-
-@media screen and (min-width: 1300px) {
-  [data-theme="light"], [data-theme="dark"] {
-    background-size: 1800px 900px;
-  }
-}
-@media screen and (min-width: 1500px) {
-  [data-theme="light"], [data-theme="dark"] {
-    background-size: 1900px 1000px;
-  }
-}
-
-@media screen and (min-width: 1850px)  {
-  [data-theme="light"], [data-theme="dark"] {
-    background-size: 3450px 1200px;
-  }
-}
-

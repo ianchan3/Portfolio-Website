@@ -11,8 +11,8 @@ export default function TechnologiesPage() {
       <main className="TechnologyPage">
         <span className="Technologies">
           <h1>TECHNOLOGIES USED</h1>
-          <div className="horizontal-line-effect left"></div>
-          <div className="horizontal-line-effect right"></div>
+          {/* <div className="horizontal-line-effect left"></div>
+          <div className="horizontal-line-effect right"></div> */}
           <br/>
           <span className="technologies-container">
             <i className="devicon-html5-plain colored" data-aos="flip-left"></i>

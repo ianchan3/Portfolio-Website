@@ -1,4 +1,8 @@
 .TechnologyPage {
   overflow-x: hidden;
+  background-color: var(--background-color);
 }
 
+#two {
+  background-color: #f9f9f9;
+}

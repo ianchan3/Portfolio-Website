@@ -28,18 +28,18 @@ p > a {
 }
 
 img {
-  color: black;
-  outline: 4.5px solid black;
+  border: 4.5px solid var(--project-description);
+  border-radius: 20px;
 }
 
-.ProjectPage img {
+/* .ProjectPage img {
   border-radius: 10px;
   box-shadow: 20px 15px #F9C811;
-}
+} */
 
-.ProjectPage img:hover {
-  box-shadow: 15px 10px #F9C811;
-}
+/* .ProjectPage img:hover {
+  border: 4.5px solid var(--accent);
+} */
 
 .project-title {
   color: var(--bg-color);
@@ -57,7 +57,7 @@ img {
 }
 
 .project-info {
-  background-color: #f7f7f8;
+  background-color: #FFFFFF;
   padding: 1rem;
   font-size: 1.4rem;
   outline: 4px solid black;

@@ -15,40 +15,43 @@ footer {
 }
 
 body {
-  background-color: #ffffff;
   background-image: url("../../components/4880206.jpg");
   background-repeat: no-repeat;
-  background-size: 1800px 1000px;
+  background-size: 155%;
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 900px) {
   body {
-    background-size: 1800px 870px;
+    background-size: 350%;
+  }
+}
+@media screen and (min-width: 1750px) {
+  body {
+    background-size: 120%;
+  }
+}
+@media screen and (min-width: 2250px) {
+  body {
+    background-size: 100%;
+  }
+  .ProjectPage {
+    margin-top: -3rem;
+    padding-top: 3rem;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 3100px){
   body {
-    background-size: 1800px 900px;
+    background-size: 7000px 2005px;
   }
-}
-@media screen and (min-width: 1500px) {
-  body {
-    background-size: 1900px 1000px;
-  }
-}
-
-@media screen and (min-width: 1850px)  {
-  body {
-    background-size: 3450px 1200px;
-  }
+  
 }
 
 * {
   scroll-behavior: smooth;
 }
 
-.project-title {
+/* .project-title {
    margin-top: 3rem;
-}
+} */

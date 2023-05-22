@@ -19,7 +19,6 @@ export default function NavBar() {
           <i id="icon" class="ri-linkedin-line"></i>
         </a>
         <DayNightFeature />
-        <p className='clickMe'>← Click Me <br/> for Magic!</p>
       </nav>
     </main>
   );
