@@ -12,6 +12,13 @@
   margin-bottom: 10rem;
 }
 
+.ProjectPage h1 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+}
+
  .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -281,4 +288,53 @@ img {
   100% {
       transform: translateY(-50%);
   }
+}
+@media screen and (max-width:999px)  {
+
+  .ProjectPage h1 {
+    font-size: 2rem;
+  }
+  #three {
+    padding-top: 1.5rem;
+  }
+  .ProjectPage img {
+    margin-bottom: 3rem;
+  }
+
+  .ProjectPage {
+    padding-bottom: 0rem;
+  }
+
+  .description {
+    padding: 1rem 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:799px) {
+  img {
+    width: 320px;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width:800px) {
+  img {
+    width: 375px;
+    height: 225px;
+  }
+}
+
+
+.links > a {
+  margin: 10px;
+  color: var(--contact-color);
+  outline: 2px solid black;
+  outline-color: var(--contact-color);
+}
+
+.links > *, h2 {
+  color: var(--contact-color);
 }

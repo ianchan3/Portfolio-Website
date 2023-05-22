@@ -17,13 +17,18 @@ footer {
 body {
   background-image: url("../../components/4880206.jpg");
   background-repeat: no-repeat;
-  background-size: 155%;
+  background-size: 170%;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 900px) {
   body {
-    background-size: 350%;
+    background-size: 400%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-size: 450%;
   }
 }
 @media screen and (min-width: 1750px) {

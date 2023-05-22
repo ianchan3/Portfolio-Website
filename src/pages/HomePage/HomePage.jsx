@@ -30,17 +30,18 @@ function scrollProgress() {
         <h1 id="greeting">
           Hi 
           <span class="wave">
-            👋
+            👋,
           </span>
-          , I'm Ian Chan!
+          <br></br>
+          I'm Ian Chan!
         </h1>
         <TypingFeature />
         <p className="description">I'm a Full Stack Software Engineer who is passionate about utilizing different technologies to make a positive impact in the world. </p>
         <p className="description">With my background in finance and customer service, my strong communication, problem-solving, and attention to detail skills makes me a great candidate for any software engineer role.</p>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"></link>
-        <div class="home-hero__mouse-scroll-cont">
+        {/* <div class="home-hero__mouse-scroll-cont">
           <div class="mouse"></div>
-        </div>
+        </div> */}
       </section>
       <TechnologiesPage />
       <ProjectPage />
