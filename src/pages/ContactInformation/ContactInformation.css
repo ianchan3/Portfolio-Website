@@ -1,5 +1,16 @@
 #contact {
-  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  #contact {
+    padding-bottom: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #contact {
+    padding-bottom: 15%;
+  }
 }
 
 .icon--linkedin--contact:hover {

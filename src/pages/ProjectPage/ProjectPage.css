@@ -94,6 +94,7 @@ img {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    margin-bottom: 0;
   }
 
   .ProjectPage h1 {
@@ -153,8 +154,6 @@ img {
     font-size: 20px;
   }
 }
-
-
 
 .links > a {
   margin: 10px;

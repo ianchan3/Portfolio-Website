@@ -90,6 +90,7 @@ export default function ProjectPage() {
             <h3 className="project-info">Love Struck is a online date planning website that allows you to get fantastic recommendations based off other user. Users can keep track of all the locations they have been to and give a rating based on the experience. </h3>
           </div>
         </div>
+        
         {/* <div className="horizontal-line-effect left"></div>
         <div className="horizontal-line-effect right"></div>
         <br></br>

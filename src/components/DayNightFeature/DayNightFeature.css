@@ -24,18 +24,10 @@
   transition: background-color 1050ms ease-in-out;
 }
 
-.DayNightToggle {
-  padding-right: 16px;
-}
+.hfMLEO, .eJLJkT, .kFupcu {
+  /* border: 10px solid black; */
+  outline: none;
+  border: none;
+  box-shadow: none;
+} 
 
-@media screen and (max-width: 1600px) {
-  .DayNightToggle {
-    padding-right: 55px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .DayNightToggle {
-    padding: 0;
-  }
-}

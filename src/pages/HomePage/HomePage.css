@@ -9,12 +9,12 @@
 }
 
 #Welcome {
-  margin-bottom: 20%;
+  margin-bottom: 23%;
 }  
 
 .HomePage {
   position: absolute;
-  top: 10%;
+  top: 17%;
 }
 
 @media screen and (max-width: 700px) {
