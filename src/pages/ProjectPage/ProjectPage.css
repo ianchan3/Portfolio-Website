@@ -85,7 +85,7 @@ img {
   background-color: #FFFFFF;
   padding: 1rem;
   font-size: 1.2rem;
-  outline: 4px solid var(--project-description);
+  outline: 4px solid black;
   border-radius: 30px;
 }
 

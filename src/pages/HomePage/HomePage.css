@@ -14,7 +14,7 @@
 
 .HomePage {
   position: absolute;
-  top: 22%;
+  top: 10%;
 }
 
 @media screen and (max-width: 700px) {
