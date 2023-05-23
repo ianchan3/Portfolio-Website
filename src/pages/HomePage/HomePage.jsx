@@ -30,7 +30,7 @@ function scrollProgress() {
         <h1 id="greeting">
           Hi 
           <span class="wave">
-            👋,
+            👋
           </span>
           <br></br>
           I'm Ian Chan!

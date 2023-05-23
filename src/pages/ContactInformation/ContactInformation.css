@@ -13,8 +13,8 @@
 }
 
 #contact-github, #contact-linkedin, #contact-github i, #contact-linkedin i {
-  outline-color: var(--contact-color);
-  color: var(--contact-color);
+  outline-color: var(--bg-color);
+  color: var(--bg-color);
 }
 
 #contact-github:hover {

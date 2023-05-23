@@ -14,7 +14,7 @@ export default function ProjectPage() {
         <h1>PROJECTS & EXPERIENCE</h1>
         {/* <div className="horizontal-line-effect left"></div>
         <div className="horizontal-line-effect right"></div> */}
-        <p className="allProjects">
+        <div className="allProjects">
           <Link className="projectPage-link"to="/projects/TExpress"><img id="TExpress" src="https://i.imgur.com/oXqGh1z.png" alt="T Express" data-aos="fade-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>T Express</span>
@@ -89,7 +89,7 @@ export default function ProjectPage() {
             <span>Python | Django | Materialize</span>
             <h3 className="project-info">Love Struck is a online date planning website that allows you to get fantastic recommendations based off other user. Users can keep track of all the locations they have been to and give a rating based on the experience. </h3>
           </div>
-        </p>
+        </div>
         {/* <div className="horizontal-line-effect left"></div>
         <div className="horizontal-line-effect right"></div>
         <br></br>
