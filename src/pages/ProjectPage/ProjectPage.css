@@ -157,13 +157,13 @@ img {
 
 .links > a {
   margin: 10px;
-  color: var(--contact-color);
+  color: var(--project-description);
   outline: 2px solid black;
-  outline-color: var(--contact-color);
+  outline-color: var(--project-description);
 }
 
 .links > *, h2 {
-  color: var(--contact-color);
+  color: var(--project-description);
 }
 
 

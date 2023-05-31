@@ -24,8 +24,8 @@
 }
 
 #contact-github, #contact-linkedin, #contact-github i, #contact-linkedin i {
-  outline-color: var(--bg-color);
-  color: var(--bg-color);
+  outline-color: var(--project-description);
+  color: var(--project-description);
 }
 
 #contact-github:hover {
@@ -38,6 +38,10 @@
   color: yellow;
 }
 
-#contact h1, #contact h3 {
+#contact h1 {
+  color: var(--project-description);
+}
+
+#contact h3 {
   color: var(--bg-color);
 }
