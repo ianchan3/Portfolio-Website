@@ -119,17 +119,26 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .HomePage {
+    top: 10%;
+  }
 }
 @media screen and (max-width: 800px) {
   .home-hero__mouse-scroll-cont {
     position: absolute;
     top: 45rem;
   }
+  .HomePage {
+    top: 5%;
+  }
 }
 @media screen and (max-width: 600px) {
   .home-hero__mouse-scroll-cont {
     position: absolute;
     top: 48rem;
+  }
+  .HomePage {
+    top: 5%;
   }
 }
 @media screen and (max-width: 450px) {
@@ -150,15 +159,12 @@
     top: 52rem;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
   .home-hero__mouse-scroll-cont {
     position: absolute;
     top: 55rem;
   }
 }
-
-
-
 
 @keyframes wheel {
   to {

@@ -68,6 +68,7 @@ img {
 
 .project-title {
   color: var(--bg-color);
+  margin-top: 6rem;
 }
 
 .project-info-container span:first-child {
@@ -115,12 +116,19 @@ img {
     margin-bottom: 10rem;
     font-size: 1.1rem;
   }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 550px)  {
     .ProjectPage img {
       width: 20rem;
       height: 13rem;
+    }
+    .project-title {
+      margin-top: 7rem;
     }
 }
 
