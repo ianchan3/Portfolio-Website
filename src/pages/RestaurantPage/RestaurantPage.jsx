@@ -7,7 +7,7 @@ export default function RestaurantPage() {
     <h1 className="project-title">Restaurant  </h1>
     <div className="horizontal-line-effect left"></div>
     <div className="horizontal-line-effect right"></div>
-    <br></br>
+    <hr></hr>
     <h2>HTML | CSS | JavaScript | React </h2>
     <span className="links">
       <p>The mobile app was designed to assist parents in teaching their children the value of money and patience. </p>

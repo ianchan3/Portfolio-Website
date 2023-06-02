@@ -10,7 +10,7 @@ export default function GrowGreenPage() {
       <h1 className="project-title">Grow Green </h1>
       <div className="horizontal-line-effect left"></div>
       <div className="horizontal-line-effect right"></div>
-      <br></br>
+      <hr></hr>
       <h2>HTML | CSS | JavaScript | MongoDB | Express | React | Node</h2>
       <span className="links">
         <p>Grow Green is a donation website where users may donate money to plant trees and help the environment by fighting climate change.</p>

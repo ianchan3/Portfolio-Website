@@ -11,7 +11,7 @@ export default function WeatherPage() {
       <h1 className="project-title">Weather App</h1>
       <div className="horizontal-line-effect left"></div>
       <div className="horizontal-line-effect right"></div>
-      <br></br>
+      <hr></hr>
       <h2>React | HTML | CSS | JavaScript</h2>
       <span className="links">
         <p>The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </p>

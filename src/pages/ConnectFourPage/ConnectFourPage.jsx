@@ -10,7 +10,7 @@ export default function ConnectFourPage() {
       <h1 className="project-title">Connect Four</h1>
       <div className="horizontal-line-effect left"></div>
       <div className="horizontal-line-effect right"></div>
-      <br></br>
+      <hr></hr>
       <h2>HTML | CSS | JavaScript</h2>
       <span className="links">
         <p>Play a game of Connect Four with your friends or family! First to 4 in a row, diagonal, vertical or horizontal, wins the game!</p>

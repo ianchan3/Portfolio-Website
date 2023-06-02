@@ -10,7 +10,7 @@ export default function TExpressPage() {
       <h1 className="project-title">T Express</h1>
       <div className="horizontal-line-effect left"></div>
       <div className="horizontal-line-effect right"></div>
-      <br></br>
+      <hr></hr>
       <h2>Vue | Node | Sequelize | Bootstrap</h2>
       <span className="links">
         <p>T Express is a application created to manage the logistics of shipments and pallets, used in real world, that allows employees to create shipments, organize pallets, and keep track of records. </p>

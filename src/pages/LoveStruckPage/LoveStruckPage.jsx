@@ -10,7 +10,7 @@ export default function LoveStruckPage() {
       <h1 className="project-title">Love Struck </h1>
       <div className="horizontal-line-effect left"></div>
       <div className="horizontal-line-effect right"></div>
-      <br></br>
+      <hr></hr>
       <h2>Python | Django | Materialize</h2>
       <div className="links">
         <p>Don't know where to go on your next date? We got you! Lovestruck is a date planning website that provides fantasic date ideas recommended by other users.</p>

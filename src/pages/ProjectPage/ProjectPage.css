@@ -68,7 +68,7 @@ img {
 
 .project-title {
   color: var(--bg-color);
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .project-info-container span:first-child {
@@ -120,6 +120,9 @@ img {
     display: flex;
     flex-direction: column;
   }
+  .project-title {
+    margin-top: 6rem;
+}
 }
 
 @media screen and (max-width: 550px)  {
