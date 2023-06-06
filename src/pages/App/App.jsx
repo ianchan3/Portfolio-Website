@@ -2,7 +2,7 @@ import "./App.css";
 import HomePage from "../HomePage/HomePage";
 import ConnectFourPage from "../ConnectFourPage/ConnectFourPage";
 import FeelTheHeatPage from "../FeelTheHeatPage/FeelTheHeatPage";
-import LoveStruckPage from "../LoveStruckPage/LoveStruckPage";
+import RestaurantPage from "../RestaurantPage/RestaurantPage";
 import CalculatorPage from "../CalculatorPage/CalculatorPage";
 import GrowGreenPage from "../GrowGreenPage/GrowGreenPage";
 import TExpressPage from "../TExpressPage/TExpressPage";
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/projects/ConnectFour" element={<ConnectFourPage/>}/>
         <Route path="/projects/FeelTheHeat" element={<FeelTheHeatPage/>}/>
         <Route path="/projects/WeatherPage" element={<WeatherPage/>}/>
-        <Route path="/projects/LoveStruck" element={<LoveStruckPage/>}/>
+        <Route path="/projects/Restaurant" element={<RestaurantPage/>}/>
         <Route path="/projects/GrowGreen" element={<GrowGreenPage/>}/>
         <Route path="/projects/Calculator" element={<CalculatorPage/>}/>
         <Route path="/projects/TExpress" element={<TExpressPage/>}/>

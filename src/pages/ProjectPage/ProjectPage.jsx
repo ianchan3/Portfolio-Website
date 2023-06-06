@@ -35,6 +35,15 @@ export default function ProjectPage() {
             <span>HTML | CSS | JavaScript | MongoDB | Express | React | Node.js | Redux</span>
             <h3 className="project-info">1st Place Hackathon in my 1st Hackathon!!! Our team worked in agile environment with only 3 days to develop an app with the theme of gamification. The app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! Track your child’s progress with a gameboard, and watch them get closer to their goal as they complete more chores!</h3>
           </div>
+          <Link className="projectPage-link"to="/projects/Restaurant"><img id="Restaurant" src="https://i.imgur.com/N5k0etr.jpg" alt="Restaurant" data-aos="flip-right"></img></Link>
+          <div className="project-info-container" data-aos="fade-left">
+            <span>My Restaurant</span>
+            <br></br>
+            <span>Restaurant Website</span>
+            <br></br>
+            <span>HTML | CSS | React | Material UI</span>
+            <h3 className="project-info">Drooling for Food? We got you covered! Check out our restaurant website that shows all of our menu, drinks, and our rich history.</h3>
+          </div>
           <Link className="projectPage-link"to="/projects/WeatherPage"><img id="Weather" src="https://i.imgur.com/u5DwAWZ.jpg" alt="Weather Forecast" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>Weather Forecast</span>
@@ -80,16 +89,8 @@ export default function ProjectPage() {
             <span>HTML | CSS | JavaScript | MongoDB | Express | React | Node</span>
             <h3 className="project-info">Grow Green is a donation website that enables users to donate money towards planting trees and fighting climate change. It has complete CRUD features and allows users to make donation, and view their donation history.</h3>
           </div>
-          <Link className="projectPage-link"to="/projects/LoveStruck"><img id="LoveStruck" src="https://i.imgur.com/W3Mikdl.png" alt="LoveStruck" data-aos="flip-right"></img></Link>
-          <div className="project-info-container" data-aos="fade-left">
-            <span>Love Struck</span>
-            <br></br>
-            <span>Date Recommendation Website</span>
-            <br></br>
-            <span>Python | Django | Materialize</span>
-            <h3 className="project-info">Love Struck is a online date planning website that allows you to get fantastic recommendations based off other user. Users can keep track of all the locations they have been to and give a rating based on the experience. </h3>
-          </div>
         </div>
+        <hr></hr>
         
         {/* <div className="horizontal-line-effect left"></div>
         <div className="horizontal-line-effect right"></div>
