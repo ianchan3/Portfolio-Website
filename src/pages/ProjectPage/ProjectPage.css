@@ -177,7 +177,9 @@ img {
   color: var(--project-description);
 }
 
-
+.links > p {
+  color: var(--bg-color);
+}
 
 
 

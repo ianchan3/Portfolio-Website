@@ -42,7 +42,7 @@ export default function ProjectPage() {
             <span>Restaurant Website</span>
             <br></br>
             <span>HTML | CSS | React | Material UI</span>
-            <h3 className="project-info">Drooling for Food? We got you covered! Check out our restaurant website that shows all of our menu, drinks, and our rich history.</h3>
+            <h3 className="project-info">Drooling for food? We got you covered! Check out our restaurant website that shows all of our menu, drinks, and our rich history.</h3>
           </div>
           <Link className="projectPage-link"to="/projects/WeatherPage"><img id="Weather" src="https://i.imgur.com/u5DwAWZ.jpg" alt="Weather Forecast" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
