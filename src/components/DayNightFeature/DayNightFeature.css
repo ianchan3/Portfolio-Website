@@ -24,10 +24,11 @@
   transition: background-color 1050ms ease-in-out;
 }
 
-.hfMLEO, .eJLJkT, .kFupcu {
-  /* border: 10px solid black; */
-  outline: none;
-  border: none;
+.sc-gswNZR.kFupcu, .sc-gswNZR.iknXqg {
   box-shadow: none;
+  border: 8px solid black;
 } 
 
+.sc-gswNZR.hTKWlA, .sc-gswNZR.kiqURW {
+  border: 8px solid #F9C811;
+}

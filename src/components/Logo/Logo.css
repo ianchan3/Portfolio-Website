@@ -16,7 +16,7 @@
 }
 
 .Logo:hover {
-  background-color: yellow;
+  background-color: #F9C811;
   animation: shake .25s;
   outline-offset: 4px;
   outline: 2px solid black;

@@ -56,13 +56,13 @@
   .icon--linkedin:hover {
     background-color: #0077b5;
     outline-color: #0077b5;
-    color: yellow;
+    color: #F9C811;
   }
 
   .icon--github:hover {
     background-color: #2ea44f;
     outline-color: #2ea44f;
-    color: yellow;
+    color: #F9C811;
   }
 
   .navbar {
@@ -86,14 +86,14 @@
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: #000;
+    background-color: #F9C811;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s,transform 0.2s ease-out;
   }
 
   .navbar:active::before {
-    background-color: #000;
+    background-color: #F9C811;
   }
   .navbar:hover::before, .navbar:focus::before {
     transform-origin: left top;
