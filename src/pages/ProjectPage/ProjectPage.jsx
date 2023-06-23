@@ -32,7 +32,10 @@ export default function ProjectPage() {
             <br></br>
             <span>Travel Advisor Website</span>
             <br></br>
-            <span>React | HTML | CSS | Material UI</span>
+            <span>React | HTML | CSS | Material UI 
+              <br/>
+              OpenWeather API | GoogleMaps API | Geolocation API
+            </span>
           <h3 className="project-info">Don't know what to do when you travel? Use our website to find the best restaurants, hotels, and attractions near you! This app has utilizes several third party APIs such as OpenWeather, Geolocation, and Google Maps to help find things to do in your area or anywhere in the world!  </h3>
           </div>
           <Link className="projectPage-link"to="/projects/Restaurant"><img id="Restaurant" src="https://i.imgur.com/N5k0etr.jpg" alt="Restaurant" data-aos="flip-right"></img></Link>
@@ -50,7 +53,7 @@ export default function ProjectPage() {
             <br></br>
             <span>Weather App</span>
             <br></br>
-            <span>HTML | CSS | JavaScript | React</span>
+            <span>HTML | CSS | JavaScript | React | OpenWeather API</span>
             <h3 className="project-info">The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </h3>
           </div>
           <Link className="projectPage-link"to="/projects/FeelTheHeat"><img id="ClimateChange" src="https://i.imgur.com/4Cw2lUX.jpg" alt="Feel The Heat?" data-aos="flip-right"></img></Link>

@@ -12,9 +12,10 @@ export default function WeatherPage() {
       <div className="horizontal-line-effect left"></div>
       <div className="horizontal-line-effect right"></div>
       <hr></hr>
-      <h2>React | HTML | CSS | JavaScript</h2>
+      <h2>React | HTML | CSS | JavaScript | OpenWeather API</h2>
       <span className="links">
-        <p>The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </p>
+        <p>The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. </p>
+        <p>With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </p>
         <a href="https://ianchanweatherapp.netlify.app/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>

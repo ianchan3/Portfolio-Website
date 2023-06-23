@@ -12,6 +12,7 @@ export default function TravelWebsitePage() {
       <div className="horizontal-line-effect right"></div>
       <hr></hr>
       <h2>React | HTML | CSS | Material UI</h2>
+      <h2>OpenWeather API | GoogleMaps API | Geolocation API</h2>
       <span className="links">
         <p>Don't know what to do when you travel? Use our website to find the best restaurants, hotels, and attractions near you! </p>
         <p>This app has utilizes several third party APIs such as OpenWeather, Geolocation, and Google Maps to help find things to do in your area or anywhere in the world! </p>
