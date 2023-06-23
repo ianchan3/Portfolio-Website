@@ -53,7 +53,7 @@ export default function ProjectPage() {
             <br></br>
             <span>Weather App</span>
             <br></br>
-            <span>HTML | CSS | JavaScript | React | OpenWeather API</span>
+            <span>HTML | CSS | JavaScript | React | OpenWeatherAPI</span>
             <h3 className="project-info">The weather app is designed to provide users with accurate and up-to-date weather information to help them plan their day or week. With an intuitive user interface, our app allows users to access current weather conditions, daily and weekly forecasts. </h3>
           </div>
           <Link className="projectPage-link"to="/projects/FeelTheHeat"><img id="ClimateChange" src="https://i.imgur.com/4Cw2lUX.jpg" alt="Feel The Heat?" data-aos="flip-right"></img></Link>
