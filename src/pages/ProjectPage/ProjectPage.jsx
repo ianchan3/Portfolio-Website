@@ -15,15 +15,6 @@ export default function ProjectPage() {
         {/* <div className="horizontal-line-effect left"></div>
         <div className="horizontal-line-effect right"></div> */}
         <div className="allProjects">
-          <Link className="projectPage-link"to="/projects/TExpress"><img id="TExpress" src="https://i.imgur.com/oXqGh1z.png" alt="T Express" data-aos="fade-right"></img></Link>
-          <div className="project-info-container" data-aos="fade-left">
-            <span>T Express</span>
-            <br></br>
-            <span>Logistics Website</span>
-            <br></br>
-            <span>Vue | Node | Sequelize | Bootstrap</span>
-            <h3 className="project-info">Currently, I am interning at T Express, a logistics and transportation company that ships packages to East Asia. As part of my role, I assist in implementing new features and fixing software bugs within the Vue, Sequelize, and BootStrap application. I also contribute in developing product features from initial design to final implementation, testing, and deployment. </h3>
-          </div>
           <Link className="projectPage-link" id="ChoresForCoins" to="/projects/ChoresForCoins"><img id="Chores" src="https://i.imgur.com/xXd964v.png" alt="Chores For Coins" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>Chores For Coins</span>
@@ -35,6 +26,15 @@ export default function ProjectPage() {
             <span>HTML | CSS | JavaScript | MongoDB | Express | React | Node.js | Redux</span>
             <h3 className="project-info">1st Place Hackathon in my 1st Hackathon!!! Our team worked in agile environment with only 3 days to develop an app with the theme of gamification. The app was designed to assist parents in teaching their children the value of money and patience. Our app rewards kids with coins for completing tasks or chores while working toward a goal or price agreed upon by their parents! Track your child’s progress with a gameboard, and watch them get closer to their goal as they complete more chores!</h3>
           </div>
+          <Link className="projectPage-link"to="/projects/TravelWebsite"><img id="TravelWebsite" src="https://i.imgur.com/jIGIGFX.jpg" alt="Travel Website" data-aos="fade-right"></img></Link>
+          <div className="project-info-container" data-aos="fade-left">
+            <span>Let's Travel!</span>
+            <br></br>
+            <span>Travel Advisor Website</span>
+            <br></br>
+            <span>React | HTML | CSS | Material UI</span>
+          <h3 className="project-info">Don't know what to do when you travel? Use our website to find the best restaurants, hotels, and attractions near you! This app has utilizes several third party APIs such as OpenWeather, Geolocation, and Google Maps to help find things to do in your area or anywhere in the world!  </h3>
+          </div>
           <Link className="projectPage-link"to="/projects/Restaurant"><img id="Restaurant" src="https://i.imgur.com/N5k0etr.jpg" alt="Restaurant" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">
             <span>My Restaurant</span>
@@ -42,7 +42,7 @@ export default function ProjectPage() {
             <span>Restaurant Website</span>
             <br></br>
             <span>HTML | CSS | React | Material UI</span>
-            <h3 className="project-info">Drooling for food? We got you covered! Check out our restaurant website that shows all of our menu, drinks, and our rich history.</h3>
+            <h3 className="project-info">Drooling for food? We got you covered! Check out our restaurant website that shows our menu, drinks & cocktails, awards, social media posts, and the history of the restaurant.</h3>
           </div>
           <Link className="projectPage-link"to="/projects/WeatherPage"><img id="Weather" src="https://i.imgur.com/u5DwAWZ.jpg" alt="Weather Forecast" data-aos="flip-right"></img></Link>
           <div className="project-info-container" data-aos="fade-left">

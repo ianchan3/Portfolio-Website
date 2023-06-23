@@ -13,7 +13,7 @@ export default function RestaurantPage() {
       <hr></hr>
       <h2>HTML | CSS | React | Material UI </h2>
       <div className="links">
-        <p>Drooling for Food? We got you covered! Check out our restaurant website that shows all of our menu, drinks, and our rich history.</p>
+        <p>Drooling for food? We got you covered! Check out our restaurant website that shows our menu, drinks & cocktails, awards, social media posts, and the history of the restaurant.</p>
         <p>Have a problem? Contact us using the Contact Us Form at the bottom of the website!</p>
         <a href="https://ianchanrestaurantapp.netlify.app/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
