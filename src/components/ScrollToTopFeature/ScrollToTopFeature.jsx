@@ -20,6 +20,6 @@ export default function ScrollToTopFeature () {
     }
   window.addEventListener("scroll", toggleVisible);
   return (
-    <button class="top" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>&uarr;</button>
+    <button aria-label="Scroll To Top" title="Scroll To Top" class="top" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>&uarr;</button>
   )
 }
