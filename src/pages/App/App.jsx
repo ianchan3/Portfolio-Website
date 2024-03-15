@@ -27,7 +27,7 @@ export default function App() {
         <Route path="/projects/TravelWebsite" element={<TravelWebsitePage/>}/>
         <Route path="/projects/ChoresForCoins" element={<ChoresForCoinsPage/>}/>
       </Routes>
-    <footer>ⓒ 2022 Ian Chan All Rights Reserved</footer>
+    <footer>ⓒ 2024 Ian Chan All Rights Reserved</footer>
     </main>
   );
 }

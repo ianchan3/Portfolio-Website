@@ -8,7 +8,8 @@ export default function TypingFeature() {
       <Typewriter
         options={{
           strings: [
-            'I am a Software Engineer.', 
+            'I am a Full Stack Software Engineer.', 
+            'I am a QA Engineer',
             'I am a Web Developer.',
             'I love to code and solve problems!',
           ],
