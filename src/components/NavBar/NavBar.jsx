@@ -11,7 +11,7 @@ export default function NavBar() {
         <li className='logo'><a href="#" id="logo"><Logo /></a></li>
         <li><a href="#two" className="navbar">Technologies</a></li>
         <li><a href="#three" className="navbar">Projects</a></li>
-        <li><a href="https://drive.google.com/file/d/18HXlxwwweXt3yv2_oAKThMfZmcW5NQb8/view?usp=sharing" target="blank" className="navbar">Resume</a></li>
+        <li><a href="https://drive.google.com/file/d/1WEbE-I4O-Uz0BlW_t9WH96k_stebgnY7/view?usp=sharing" target="blank" className="navbar">Resume</a></li>
         <a href="https://github.com/ianchan3/" title="Github" aria-label="Github Link " target="blank" id="icon"class="icon icon--github">
           <i id="icon" class="ri-github-line"></i>
         </a>
