@@ -4,7 +4,7 @@ import ConnectFourPage from "../ConnectFourPage/ConnectFourPage";
 import FeelTheHeatPage from "../FeelTheHeatPage/FeelTheHeatPage";
 import RestaurantPage from "../RestaurantPage/RestaurantPage";
 import CalculatorPage from "../CalculatorPage/CalculatorPage";
-import GrowGreenPage from "../GrowGreenPage/GrowGreenPage";
+import FoodOrderingPage from "../FoodOrderingPage/FoodOrderingPage";
 import TravelWebsitePage from "../TravelWebsitePage/TravelWebsitePage";
 import WeatherPage from "../WeatherPage/WeatherPage";
 import ChoresForCoinsPage from "../ChoresForCoins/ChoresForCoins";
@@ -22,12 +22,12 @@ export default function App() {
         <Route path="/projects/FeelTheHeat" element={<FeelTheHeatPage/>}/>
         <Route path="/projects/WeatherPage" element={<WeatherPage/>}/>
         <Route path="/projects/Restaurant" element={<RestaurantPage/>}/>
-        <Route path="/projects/GrowGreen" element={<GrowGreenPage/>}/>
+        <Route path="/projects/FoodOrdering" element={<FoodOrderingPage/>}/>
         <Route path="/projects/Calculator" element={<CalculatorPage/>}/>
         <Route path="/projects/TravelWebsite" element={<TravelWebsitePage/>}/>
         <Route path="/projects/ChoresForCoins" element={<ChoresForCoinsPage/>}/>
       </Routes>
-    <footer>ⓒ 2024 Ian Chan All Rights Reserved</footer>
+    <footer>ⓒ 2026 Ian Chan All Rights Reserved</footer>
     </main>
   );
 }
