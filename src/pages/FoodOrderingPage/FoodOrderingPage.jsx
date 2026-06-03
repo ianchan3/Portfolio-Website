@@ -19,7 +19,7 @@ export default function FoodOrderingPage() {
           <i className="em em-link" ></i>
         </a>
         <br />
-        <a href="https://github.com/ianchan3/restaurant-order" target="_blank" className="icon icon--github">
+        <a href="https://github.com/ianchan3/matcha-and-co" target="_blank" className="icon icon--github">
           <i className="ri-github-line"></i>
         </a>
       </span>
