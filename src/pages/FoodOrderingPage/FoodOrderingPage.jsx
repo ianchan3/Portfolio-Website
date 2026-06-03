@@ -15,7 +15,7 @@ export default function FoodOrderingPage() {
       <span className="links">
         <p>Matcha & Co. is a full-stack food ordering web application where users can browse a menu, add items to their cart, and place orders through a secure checkout flow.</p>
         <p>Built with the MERN stack (MongoDB, Express, React, Node.js) and integrated with Stripe for payment processing, Slack Webhooks for real-time order notifications, and Grafana with OpenTelemetry for application observability. Includes a full CI/CD pipeline with ESLint, Vitest unit tests, Supertest API tests, and Playwright end-to-end tests running across Chromium, Firefox, and WebKit.</p>
-        <a href="https://restaurant-order-kappa.vercel.app/" target="_blank" className="icon icon--link">
+        <a href="https://matcha-and-co.com/" target="_blank" className="icon icon--link">
           <i className="em em-link" ></i>
         </a>
         <br />
